@@ -1,0 +1,107 @@
+<?php
+
+namespace App\Models;
+
+use Illuminate\Database\Eloquent\Factories\HasFactory;
+use Illuminate\Database\Eloquent\Model;
+
+use App\Models\User;
+use App\Models\Review;
+use App\Models\Coupon;
+use App\Models\Image;
+use App\Models\Widget;
+use App\Models\Subscriber;
+use App\Models\Tel_Subscriber;
+use App\Models\Category;
+
+class Store extends Model
+{
+    use HasFactory;
+
+    protected $fillable = [
+        'seo_title', 
+        'seo_description', 
+        'name', 
+        'slug', 
+        'title', 
+        'description', 
+        'aff_link', 
+        'link', 
+        'store_degree',
+        'about_store_1_title',
+        'about_store_1_description',
+        'about_store_2_title',
+        'about_store_2_description',
+        'about_store_3_title',
+        'about_store_3_description',
+        'about_store_4_title',
+        'about_store_4_description',
+        'about_store_5_title',
+        'about_store_5_description',
+        'about_store_6_title',
+        'about_store_6_description',
+        'about_store_7_title',
+        'about_store_7_description',
+        'about_store_8_title',
+        'about_store_8_description',
+        'online', 
+        'featured',
+        'updated_by',
+        'user_id'
+    ];
+
+    public function getStoreImage()
+    {   
+        return implode('%20', explode(' ', asset('storage/app/public/images/markets/'.$this->image->path) ) );
+    }
+
+    public function user()
+    {
+        return $this->belongsTo(User::class);
+    }
+    
+    public function updated_by_who()
+    {
+        return $this->belongsTo(User::class, 'updated_by');
+    }
+
+    public function widgets()
+    {
+        return $this->hasMany(Widget::class)->orderBy('order');
+    }
+
+    public function coupons()
+    {
+        return $this->hasMany(Coupon::class);
+    }
+
+    public function offers()
+    {
+        return $this->coupons()->where('offer', 1);
+    }
+
+    public function reviews()
+    {
+        return $this->hasMany(Review::class);
+    }
+
+    public function image()
+    {
+        return $this->morphOne(Image::class, 'imageable');
+    }
+
+    public function subscribers()
+    {
+        return $this->hasMany(Subscriber::class);
+    }
+
+    public function tel_subscribers()
+    {
+        return $this->belongsToMany(Tel_Subscriber::class, 'stores_tel__subscribers');
+    }
+    
+    public function categories()
+    {
+        return $this->belongsToMany(Category::class)->withPivot('category_id', 'store_id');
+    }
+}
