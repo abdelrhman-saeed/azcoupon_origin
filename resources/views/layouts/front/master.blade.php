@@ -499,6 +499,7 @@
     !function(){var e=document.querySelector(".t-footer__to-top");e&&e.addEventListener("click",function(e){e.preventDefault(),window.scrollTo({top:0,behavior:"smooth"})});var t=(new Date).getFullYear(),o=document.getElementById("copyrightYear");o&&(o.innerHTML=t)}();
 </script>
 
+<script src="{{ asset('assets/js/jquery.min.js') }}"></script>
 <script src="{{ asset('plugins/intl-tel-input/build/js/intlTelInput-jquery.min.js') }}"></script>
 <script src="https://cdn.jsdelivr.net/npm/clipboard@1/dist/clipboard.min.js"></script>
 
@@ -636,7 +637,6 @@
 <script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
 
-<script src="{{ asset('assets/js/jquery.min.js') }}"></script>
 <script src="{{ asset('assets/js/functions.js') }}"></script>
 
 <script>
