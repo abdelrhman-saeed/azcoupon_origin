@@ -17,26 +17,35 @@ class HomeController extends Controller
     public function __invoke(Request $request)
     {
         $setting = Setting::find(1);
-        $latest_stores = Store::latest()->where('online', 1)->take( $setting->latest_stores_num )->get();
-        $featured_brands = Store::latest()
-                                    ->where('online', 1)
-                                    ->where('featured', 1)
-                                    ->take($setting->featured_brands_num)->get();
+        $stores = Store::latest()->where('online', 1)->get();
 
-        $featured_coupons = Coupon::latest()
-                                        ->AvailableInSchedule()
-                                        ->NotExpired()
-                                        ->where('online', 1)
-                                        ->where('featured', 1)
-                                        ->take($setting->featured_coupons_num)->get();
+        $latest_stores = $stores->take($setting->latest_stores_num);
+        $featured_brands = $stores->filter(fn ($store) => $store->featured)->take($setting->featured_brands_num);
 
-        $latest_coupons = Coupon::latest()
-                                    ->AvailableInSchedule()
-                                    ->NotExpired()
-                                    ->where('online', 1)
-                                    ->get()
-                                    ->unique('store_id')
-                                    ->take($setting->latest_coupons_num);
+//        $latest_stores = Store::latest()->where('online', 1)->take( $setting->latest_stores_num )->get();
+
+        $coupons = Coupon::latest()
+                            ->AvailableInSchedule()
+                            ->NotExpired()
+                            ->where('online', 1)
+                            ->get();
+
+        $featured_coupons = $coupons->filter(fn($coupon) => $coupon->featured)->take($setting->featured_coupons_num);
+//        $featured_coupons = Coupon::latest()
+//                                        ->AvailableInSchedule()
+//                                        ->NotExpired()
+//                                        ->where('online', 1)
+//                                        ->where('featured', 1)
+//                                        ->take($setting->featured_coupons_num)->get();
+//
+        $latest_coupons = $coupons->unique('store_id')->take($setting->latest_coupons_num);
+//        $latest_coupons = Coupon::latest()
+//                                    ->AvailableInSchedule()
+//                                    ->NotExpired()
+//                                    ->where('online', 1)
+//                                    ->get()
+//                                    ->unique('store_id')
+//                                    ->take($setting->latest_coupons_num);
 
         return view('home.index', [
             
@@ -57,8 +66,7 @@ class HomeController extends Controller
             
             'latest_stores' => $latest_stores,
             'latest_coupons' => $latest_coupons,
-
-            'last_updated_at' => Store::where('online', 1)->orderBy('updated_at', 'DESC')->first()->updated_a ?? ''
+            'last_updated_at' => $stores->sortByDesc('updated_at')->first()->updated_at ?? ''
         ]);
     }
     

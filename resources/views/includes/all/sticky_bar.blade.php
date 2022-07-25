@@ -44,13 +44,14 @@
 
     <div class="col-3 col-sm-2 col-lg-2 p-0">
         <a
-                class="btn"
+                class="btn text-white"
                 style="
                         background-color: #56c0ab;
                         font-size: 1.5vh;
                         min-width: 105px;
                         max-width: 150px;
                         max-height: 100px;
+                        border-radius: 20px;
                     "
                 data-coupon-id='{{ $super_featured_coupon->id }}'
                 data-shop-name='{{ $super_featured_coupon->store->name }}'
