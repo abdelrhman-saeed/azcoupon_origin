@@ -37,7 +37,8 @@
 
 <meta name="robots" content="index,follow">
 
-<link href="{{ asset('css/app.css') }}" rel="stylesheet">
+{{--<link href="{{ asset('css/app.css') }}" rel="stylesheet">--}}
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
 <link rel="apple-touch-icon" sizes="57x57" href="{{ asset('assets/images/icons/glam_favicon.svg') }}?width=57&amp;height=57&amp;format=png">
 <link rel="apple-touch-icon" sizes="72x72" href="{{ asset('assets/images/icons/glam_favicon.svg') }}?width=72&amp;height=72&amp;format=png">
 <link rel="apple-touch-icon" sizes="76x76" href="{{ asset('assets/images/icons/glam_favicon.svg') }}?width=76&amp;height=76&amp;format=png">

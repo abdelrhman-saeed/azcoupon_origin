@@ -10,9 +10,7 @@ class AdminPermissions
 {
     public function handle(Request $request, Closure $next)
     {
-        $user_permissions = auth()->user()->permissions->map(function($permission){
-            return $permission->path;
-        })->toArray();
+        $user_permissions = auth()->user()->permissions->map(fn ($permission) => $permission->path)->toArray();
 
         $path_splitted = explode('/', $request->path());
 //        $path = $path_splitted[count($path_splitted) - 1];

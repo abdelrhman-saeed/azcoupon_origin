@@ -18,7 +18,6 @@ class HomeController extends Controller
     {
         $setting = Setting::find(1);
         $latest_stores = Store::latest()->where('online', 1)->take( $setting->latest_stores_num )->get();
-        
         $featured_brands = Store::latest()
                                     ->where('online', 1)
                                     ->where('featured', 1)
@@ -30,7 +29,7 @@ class HomeController extends Controller
                                         ->where('online', 1)
                                         ->where('featured', 1)
                                         ->take($setting->featured_coupons_num)->get();
-        
+
         $latest_coupons = Coupon::latest()
                                     ->AvailableInSchedule()
                                     ->NotExpired()
