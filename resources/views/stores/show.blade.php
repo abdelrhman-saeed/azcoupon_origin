@@ -194,7 +194,7 @@
         
                     <div class="coupon__action">
                         <a
-                            class="clickout btn text-white"
+                            class="clickout btn"
                             data-coupon-id='{{ $coupon->id }}'
                             data-shop-name='{{ $coupon->store?->name }}'
                             title='{{ $coupon->title }}'
@@ -364,7 +364,7 @@
                             target='_blank'
                             title="{{ $coupon->description }}"
                             data-index="1">
-                            <span style="font-size: 1.2em;"> GET {{ $coupon->offer ? 'OFFER' : 'CODE' }} </span>
+                            <span style="font-size: 1.4em;"> GET {{ $coupon->offer ? 'OFFER' : 'CODE' }} </span>
                         </a>
                     </div>
                 </div>
