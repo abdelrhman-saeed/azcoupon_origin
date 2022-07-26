@@ -194,7 +194,7 @@
         
                     <div class="coupon__action">
                         <a
-                            class="clickout btn"
+                            class="clickout btn text-white"
                             data-coupon-id='{{ $coupon->id }}'
                             data-shop-name='{{ $coupon->store?->name }}'
                             title='{{ $coupon->title }}'
@@ -350,7 +350,7 @@
 
                     <div class="coupon__action">
                         <a
-                            class="clickout btn"
+                            class="clickout btn text-white"
                             data-coupon-id='{{ $coupon->id }}'
                             data-shop-name='{{ $coupon->store?->name }}'
                             title='{{ $coupon->title }}'
@@ -486,7 +486,7 @@
                             </h3>
                         </div>
                         <div class="coupon__action">
-                            <a style="width: 110px; display: block;"  class="clickout btn">Expired</a>
+                            <a style="width: 110px; display: block;"  class="clickout btn text-white">Expired</a>
                         </div>
                     </div>
                 </div>
