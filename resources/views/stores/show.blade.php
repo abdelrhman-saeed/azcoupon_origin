@@ -208,7 +208,7 @@
                             target='_blank'
                             title="{{ $coupon->description }}"
                             data-index="1">
-                            <span class="h5 fw-bolder"> GET {{ $coupon->offer ? 'OFFER' : 'CODE' }} </span>
+                            <span class="h5 fw-bold"> GET {{ $coupon->offer ? 'OFFER' : 'CODE' }} </span>
                         </a>
                     </div>
         
@@ -364,7 +364,8 @@
                             target='_blank'
                             title="{{ $coupon->description }}"
                             data-index="1">
-                            <span style="font-size: 1.3em;"> GET {{ $coupon->offer ? 'OFFER' : 'CODE' }} </span>
+                            <span style="font-size: 0.7em"
+                                    class="fw-bold"> GET {{ $coupon->offer ? 'OFFER' : 'CODE' }} </span>
                         </a>
                     </div>
                 </div>
