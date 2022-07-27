@@ -329,8 +329,8 @@
                             </h3>
                         </a>
 
-                        <div class="coupon__text">
-                            {{ \Str::limit($coupon->description, 150) }}
+                        <div class="coupon__text" style="-webkit-line-clamp: unset; overflow: unset; text-overflow: unset; white-space: unset">
+                            {{ $coupon->description }}
                         </div>
                         <div class="collapse p-0" id="collapseExample{{$key}}random-text">
                             <div class="card card-body bg-transparent border-0 p-0">

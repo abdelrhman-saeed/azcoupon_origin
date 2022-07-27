@@ -17,10 +17,12 @@
             </a>
         </div>
         <div class="sidebar__shop-link d-none d-lg-block">
-            <a 
-            rel="nofollow" 
+            <a
+            onMouseOver ="this.style.color='#fff'"
+            onmouseout="this.style.color='#000'"
+            rel="nofollow"
             target="_blank" 
-            class="sidebar__btn btn btn--warning"
+            class="sidebar__btn btn btn--warning fw-bold"
             data-shop="John Greed" 
             data-element="FU" href="{{ $store->aff_link }}">
                 Visit {{ $store->name }}
