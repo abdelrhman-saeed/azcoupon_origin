@@ -329,7 +329,8 @@
                             </h3>
                         </a>
 
-                        <div class="coupon__text" style="-webkit-line-clamp: unset; overflow: unset; text-overflow: unset; white-space: unset">
+                        <div class="coupon__text"
+                             style="-webkit-line-clamp: unset; overflow: unset; text-overflow: unset; white-space: unset; max-height: unset;">
                             {{ $coupon->description }}
                         </div>
                         <div class="collapse p-0" id="collapseExample{{$key}}random-text">

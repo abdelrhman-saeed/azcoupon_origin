@@ -18,8 +18,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
 
-{{--    <meta content="@yield('seo_title', $home_meta_title)" name="title" />--}}
-{{--    <meta content="@yield('description', $home_meta_description)" name="description" />--}}
+    <meta content="@yield('seo_title', $home_meta_title)" name="title" />
+    <meta content="@yield('description', $home_meta_description)" name="description" />
 
     <!-- Global site tag (gtag.js) - Google Analytics -->
 {{--    {!! $global_site_tag !!}--}}
