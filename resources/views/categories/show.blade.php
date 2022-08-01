@@ -270,7 +270,7 @@
                 <div class="coupon__action">
 
                     <a
-                        class="clickout btn text-white"
+                        class="clickout btn"
                         data-coupon-id='{{ $coupon->id }}'
                         data-shop-name='{{ $coupon->store->name }}'
                         title='{{ $coupon->title }}'
