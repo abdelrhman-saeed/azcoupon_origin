@@ -309,7 +309,7 @@
                     </div>
 
                 <div class="coupon__right">
-                    <div class="coupon__desc">
+                    <div class="coupon__desc row align-items-end">
 
                         <a
                         class='coupon__title_link'
@@ -406,7 +406,7 @@
             @foreach($store_latest_coupons_offers as $coupon)
             <tr class="table-row table-row--hover">
                 <td class="fw-normal">
-                    <a href="{{ route('open_coupon', $coupon) }}">{{ $coupon->description }}</a>
+                    <a href="{{ route('open_coupon', $coupon) }}">{{ $coupon->description ?: $coupon->title }}</a>
                 </td>
                 <td>{{$coupon->discount}}{{$coupon->preference}} Off</td>
                 <td>

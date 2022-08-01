@@ -14,17 +14,20 @@
                             {
                               "@context": "https://schema.org/", 
                               "@type": "BreadcrumbList", 
-                              "itemListElement": [{
+                              "itemListElement": [
+                              {
                                 "@type": "ListItem", 
                                 "position": 1, 
                                 "name": "Home",
                                 "item": "{{ route('home.index') }}" 
-                              },{
+                              },
+                              {
                                 "@type": "ListItem", 
                                 "position": 2, 
                                 "name": "{{ isset($category) ? 'categorie' : 'negozi' }}",
                                 "item": "{{ isset($category) ? route('categories.index') : route('stores.index') }}"
-                              }]
+                              }
+                              ]
                             }
                         </script>
                         

@@ -1,5 +1,19 @@
 @extends('layouts.front.master')
 
+@section("structed_schema")
+    <script type="application/id+json">
+        {
+            "@context": "{{ request()->getSchemeAndHttpHost() }}",
+            "id": "{{url()->current()}}"
+            "@type": "Coupons",
+            "name": "Glam Promo Codes",
+            "image": {{ asset('assets/images/icons/glam_favicon.svg') }},
+            "logo": {{ asset('assets/images/icons/glam_favicon.svg') }},
+            "item
+        }
+    </script>
+@endsection
+
 @section('title', $home_meta_title)
 
 @section('css')
