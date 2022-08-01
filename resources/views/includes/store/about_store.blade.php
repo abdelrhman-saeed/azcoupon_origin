@@ -22,7 +22,7 @@
             <div class='card-body'>
                 <h3 class='card-title border-bottom pb-3 mb-3 fw-bold'>{{ $store->$title }}</h3>
                 
-                <p class='lead'>
+                <p class='lead fw-bold'>
                     {!! $store->$description !!}
                 </p>
             </div>
