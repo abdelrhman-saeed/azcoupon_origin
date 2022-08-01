@@ -4,6 +4,17 @@
 
 <head>
 
+    <script type="application/id+json">
+        {
+            "@context": "{{ request()->getSchemeAndHttpHost() }}",
+            "id": "{{url()->current()}}"
+            "@type": "Coupons",
+            "name": "Glam Promo Codes",
+            "image": {{ asset('assets/images/icons/glam_favicon.svg') }},
+            "logo": {{ asset('assets/images/icons/glam_favicon.svg') }}
+        }
+    </script>
+
 <style>
     .icon{font-size:20px;margin-top:20%}.coupon__aside img{display:block}.coupon__label--exclusive::before{font-family:Simple}.w-featured__content .coupon__label{font-size:14px}@media (min-width:992px){body .headline__title span{font-size:36px}}.coupon__aside img{display:block}.coupon__label--exclusive::before{font-family:Simple}.w-featured__content .coupon__label{font-size:14px}@media (min-width:992px){body .headline__title span{font-size:36px}}
 </style>
