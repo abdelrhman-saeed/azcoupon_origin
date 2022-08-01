@@ -67,7 +67,7 @@
   <div class="coupons-list" data-element="CL" data-coupons-list >
 
     @foreach( $category_coupons_featured as $key => $coupon )
-    <div class="container">
+    <div class="container border border-black">
 
         <div class="row">
             <div
@@ -162,7 +162,7 @@
                         </div>
                         <div class="coupon__action">
                             <a
-                                class="clickout btn"
+                                class="clickout btn border border-black"
                                 data-coupon-id='{{ $coupon->id }}'
                                 data-shop-name='{{ $coupon->store->name }}'
                                 title='{{ $coupon->title }}'
@@ -271,7 +271,7 @@
                 <div class="coupon__action">
 
                     <a
-                        class="clickout btn text-white"
+                        class="clickout btn border border-black text-white"
                         data-coupon-id='{{ $coupon->id }}'
                         data-shop-name='{{ $coupon->store->name }}'
                         title='{{ $coupon->title }}'
