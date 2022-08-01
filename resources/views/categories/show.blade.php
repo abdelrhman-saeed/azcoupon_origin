@@ -33,9 +33,6 @@
             font-size: 16px !important;
         }
         /*.widget widget--seo-text h2 */
-        .coupon--large {
-            background-color: #fff;
-        }
     </style>
 @endsection
 
@@ -76,7 +73,7 @@
             <div
             data-index="{{$key}}" 
             id="coupon-{{$coupon->id}}"
-            class="coupon shop-{{$coupon->store->id}} c-{{ $coupon->offer == 1 ? 'offer' : 'coupon' }} coupon--large"
+            class="coupon shop-{{$coupon->store->id}} c-{{ $coupon->offer == 1 ? 'offer' : 'coupon' }} coupon--large background--white text-black"
             data-element="EP" 
             data-coupon-id="{{$coupon->id}}" 
             data-coupon-type="{{ $coupon->offer == 1 ? 'offer' : 'coupon' }}" 
@@ -88,7 +85,7 @@
                     <div 
                         class="coupon__aside" 
                         data-coupon-id="{{$coupon->id}}" 
-                        data-shop-name="{{$coupon->store->name}}"
+                        data-shop-name="{{$coupon->store->name}} "
                         title="{{$coupon->title}}" >
 
 
@@ -125,6 +122,7 @@
                         <div class="coupon__desc">
 
                             <a
+                            class="text-black"
                             title='{{ $coupon->title }}'
                             onclick="
                             @if($coupon->offer == 0)
@@ -143,7 +141,7 @@
                                 </h2>
                             </a>
 
-                            <div class="coupon__text">
+                            <div class="coupon__text text-black">
                                 {{ $coupon->description }}
                             </div>
 
@@ -153,7 +151,7 @@
                                             <div class="copoun_terms my-1">
                                                 <ul class="list-group-flush bg-transparent">
                                                     @foreach($coupon->couponterms as $couponterm)
-                                                        <li class="list-group-item bg-transparent border-0 m-0 p-0" style="color: #fff; font-size: .9rem;"> <span>-</span> {{ $couponterm->term  }} </li>
+                                                        <li class="list-group-item bg-transparent border-0 m-0 p-0 text-black" style="color: #fff; font-size: .9rem;"> <span>-</span> {{ $couponterm->term  }} </li>
                                                     @endforeach
                                                 </ul>
                                             </div>
