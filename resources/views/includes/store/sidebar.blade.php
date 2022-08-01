@@ -1,7 +1,7 @@
 <div class="col-lg-4" data-area="SB">
     <div class="sidebar mb-10" id="sidebar">
         <div class="sidebar__logo d-none d-lg-block">
-            <a 
+            <a
             class="sidebar__logo-link" 
             data-shop="{{ $store->name }}" 
             href="{{ $store->aff_link }}" 
@@ -18,11 +18,10 @@
         </div>
         <div class="sidebar__shop-link d-none d-lg-block">
             <a
-            onMouseOver ="this.style.color='#fff'"
-            onmouseout="this.style.color='#000'"
+            style="background-color: #04777b;"
             rel="nofollow"
             target="_blank" 
-            class="sidebar__btn btn btn--warning fw-bold"
+            class="sidebar__btn btn btn--warning fw-bold text-white"
             data-shop="John Greed" 
             data-element="FU" href="{{ $store->aff_link }}">
                 Visit {{ $store->name }}
@@ -156,6 +155,7 @@
             .related__col--similar a {
                 font-size: 18px;
             }
+
         </style>
 
 
