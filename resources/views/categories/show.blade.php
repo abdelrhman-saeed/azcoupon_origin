@@ -33,6 +33,9 @@
             font-size: 16px !important;
         }
         /*.widget widget--seo-text h2 */
+        .coupon--large {
+            background-color: #fff;
+        }
     </style>
 @endsection
 
