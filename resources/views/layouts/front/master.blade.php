@@ -403,7 +403,7 @@
 
         <div class="modal-clickout__link-wrp modal-clickout__code-wrp px-6 py-3">
 
-          <a class="btn modal-clickout__link"
+          <a class="btn modal-clickout__link text-white"
               href="#"
               data-coupon-id=""
               target="_blank"
@@ -430,7 +430,7 @@
                   <input type="text" id="nickname" class="border-dark" name="nickname">
               </div>
               <p class="res-message"></p>
-              <button class="mt-2 btn modal-clickout__link bg-success">Subscribe</button>
+              <button class="mt-2 btn modal-clickout__link bg-success text-white">Subscribe</button>
           </form>
       </div>
 

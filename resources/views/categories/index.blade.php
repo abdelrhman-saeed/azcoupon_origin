@@ -41,23 +41,24 @@
             <ul class="categories__list row justify-content-center ">
         
                 @foreach( $categories as $category )
-        
-                <li class="categories__item col-md-3 col-sm-6 col-xs-6">
-                    <a href="{{ route('categories.show', $category->slug) }}" class="categories__link">
-                        <img 
-                            alt="{{ $category->image->alt }}" 
-                            title="{{ $category->image->title }}" 
-                            class="m-auto" 
-                            height="100" 
-                            width="100" 
-                            src="" 
-                            srcset="{{$category->getImage()}}?width=110&amp;height=110 1x, {{$category->getImage()}}?width=220&amp;height=220&amp;quality=60 2x">
-               
-                        <span class="categories__name">
-                            {{ $category->name }}
-                        </span>
-                    </a>
-                </li>
+                    @if($category->image !== null)
+                        <li class="categories__item col-md-3 col-sm-6 col-xs-6">
+                            <a href="{{ route('categories.show', $category->slug) }}" class="categories__link">
+                                <img
+                                    alt="{{ $category->image->alt }}"
+                                    title="{{ $category->image->title }}"
+                                    class="m-auto"
+                                    height="100"
+                                    width="100"
+                                    src=""
+                                    srcset="{{$category->getImage()}}?width=110&amp;height=110 1x, {{$category->getImage()}}?width=220&amp;height=220&amp;quality=60 2x">
+
+                                <span class="categories__name">
+                                    {{ $category->name }}
+                                </span>
+                            </a>
+                        </li>
+                     @endif
         
                 @endforeach
         

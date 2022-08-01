@@ -38,6 +38,52 @@ use App\Models\Store;
 use App\Models\Coupon;
 use Illuminate\Http\Request;
 
+Route::get('test2d', function () {
+
+    Store::all()->map(function ($store) {
+        \App\Models\Review::create([
+           'store_id' => $store->id,
+            'review' => '5.0',
+            'date' => now()
+        ]);
+    });
+});
+//Route::get('test2d', function () {
+//
+//    \App\Models\Category::all()->map(
+//        function ($category) {
+//                    $category->slug = trim(str_replace(' ', '-', $category->name), '-');
+//                    $category->save();
+//                }
+//    );
+//
+//});
+//Route::get('test2d', function () {
+//
+//    $all_website_images = Storage::files('public/media');
+//    $stores = Store::all();
+//
+//    $stores->map(function (Store $store) use ($all_website_images) {
+//        $websiteid = DB::table('mycoupons.website')
+//                        ->where('WebsiteName', '=', $store->name)->first()->WebsiteID;
+//
+//
+//        $theImageToStore = collect(preg_grep("+public\/media\/$websiteid.*\..*+", $all_website_images))->first();
+//        \App\Models\Image::create([
+//            'name' => $theImageToStore,
+//            'path' => $theImageToStore,
+//            'imageable_id' => $store->id,
+//            'imageable_type' => 'App\Models\Store',
+//        ]);
+//
+//        Storage::copy($theImageToStore, 'public/images/markets/'. $theImageToStore);
+//
+//    });
+//
+////    dd($matches);
+//
+//});
+
 Route::get('azexsupport.php', ExtensionController::class);
 
 // Admin Dashboard Routes

@@ -224,7 +224,7 @@
                             <img alt="{{ $coupon->store?->name }} Discount Codes" class="premium-widget__coupon-image" src="" data-normal="{{ $coupon->store?->getStoreImage() }}?width=110&amp;height=110" data-srcset="{{ $coupon->store?->getStoreImage() }}?width=110&amp;height=110 1x, {{ $coupon->store?->getStoreImage() }}?width=220&amp;height=220&amp;quality=60 2x">
         
                             <div class="premium-widget__coupon-aside">
-                                <p class="premium-widget__coupon-text">{{ $coupon->title }}</p>
+                                <p class="premium-widget__coupon-text">{{ $coupon->title ?: $coupon->description }}</p>
                             </div>
                         </a>
                         

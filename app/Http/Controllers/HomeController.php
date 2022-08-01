@@ -26,7 +26,7 @@ class HomeController extends Controller
 
         $coupons = Coupon::latest()
                             ->AvailableInSchedule()
-                            ->NotExpired()
+//                            ->NotExpired()
                             ->where('online', 1)
                             ->get();
 
