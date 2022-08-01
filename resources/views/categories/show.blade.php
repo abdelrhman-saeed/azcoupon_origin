@@ -162,7 +162,7 @@
                         </div>
                         <div class="coupon__action">
                             <a
-                                class="clickout btn border border-black"
+                                class="clickout btn coupons-grid text-white"
                                 data-coupon-id='{{ $coupon->id }}'
                                 data-shop-name='{{ $coupon->store->name }}'
                                 title='{{ $coupon->title }}'
