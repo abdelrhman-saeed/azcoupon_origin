@@ -404,19 +404,22 @@
                 <th>Expiry Date</th>
             </tr>
             @foreach($store_latest_coupons_offers as $coupon)
-            <tr class="table-row table-row--hover">
-                <td class="fw-normal">
-                    <a href="{{ route('open_coupon', $coupon) }}">{{ $coupon->description ?: $coupon->title }}</a>
-                </td>
-                <td>{{$coupon->discount}}{{$coupon->preference}} Off</td>
-                <td>
-                    @if( $coupon->expire_date != '0000-00-00' && $coupon->expire_date != NULL )
-                        {{ \Carbon\Carbon::parse($coupon->expire_date)->translatedFormat('d F Y') }}
-                    @else
-                        {{ $coupon->offer ? 'Active' : 'Active' }}
-                    @endif
-                </td>
-            </tr>
+                @if($coupon->description || $coupon->title)
+
+                    <tr class="table-row table-row--hover">
+                        <td class="fw-normal">
+                            <a href="{{ route('open_coupon', $coupon) }}">{{ $coupon->description ?: $coupon->title }}</a>
+                        </td>
+                        <td>{{$coupon->discount}}{{$coupon->preference}} Off</td>
+                        <td>
+                            @if( $coupon->expire_date != '0000-00-00' && $coupon->expire_date != NULL )
+                                {{ \Carbon\Carbon::parse($coupon->expire_date)->translatedFormat('d F Y') }}
+                            @else
+                                {{ $coupon->offer ? 'Active' : 'Active' }}
+                            @endif
+                        </td>
+                    </tr>
+                @endif
             @endforeach
         </tbody>
     </table>
@@ -473,26 +476,29 @@
         <div class="loader loader--coupons hidden" data-loader></div>
         <div class="coupons-list" data-element="CL" data-coupons-list>
             @foreach($store_expired_coupons_offers as $key => $coupon)
-            <div id="coupon-{{ $coupon->id }}" class="coupon" data-coupon-item data-coupon-id="{{ $coupon->id }}" data-index="{{$key}}"  >
-                <div class="coupon__body">
-                    <div class="coupon__aside" >
-                        <div class="coupon__logo coupon__logo--bg ">
-                            <span class="coupon__amount">{{ $coupon->discount ?: 0 }} {{ $coupon->preference }}</span>
-                            <span class="coupon__type">Discount</span>
+                @if($coupon->description || $coupon->title)
+
+                    <div id="coupon-{{ $coupon->id }}" class="coupon" data-coupon-item data-coupon-id="{{ $coupon->id }}" data-index="{{$key}}"  >
+                        <div class="coupon__body">
+                            <div class="coupon__aside" >
+                                <div class="coupon__logo coupon__logo--bg ">
+                                    <span class="coupon__amount">{{ $coupon->discount ?: 0 }} {{ $coupon->preference }}</span>
+                                    <span class="coupon__type">Discount</span>
+                                </div>
+                            </div>
+                            <div class="coupon__right">
+                                <div class="coupon__desc">
+                                    <h3  class="coupon__title">
+                                        {{ $coupon->title }}
+                                    </h3>
+                                </div>
+                                <div class="coupon__action">
+                                    <a style="width: 110px; display: block;"  class="clickout btn text-white">Expired</a>
+                                </div>
+                            </div>
                         </div>
                     </div>
-                    <div class="coupon__right">
-                        <div class="coupon__desc">
-                            <h3  class="coupon__title">
-                                {{ $coupon->title }}
-                            </h3>
-                        </div>
-                        <div class="coupon__action">
-                            <a style="width: 110px; display: block;"  class="clickout btn text-white">Expired</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
+                @endif
             @endforeach
         </div>
     </div>
