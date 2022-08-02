@@ -96,12 +96,21 @@
         
         <div class="widget widget--faq ">
             <h2 class="fw-bold">FAQs with {{$store->name}}</h2>
+
+            <h3 class="fw-bold">  Which {{ $store->name }} discounts are active for August 2022 ? </h3>
+            <p class="font-18"> All-Star Favorites Starting at $ 8 with {{ $store->name }} discount </p>
+            <p class="font-18">Free Returns on your orders with {{ $store->name }} discount</p>
+            <p class="font-18">Free Shipping on orders of $49 with {{ $store->name }} discount</p>
+            <p class="font-18">40% OFF full - price styles with {{ $store->name }} coupon</p>
+            <p class="font-18">Get up to 30% Off on Crystal Stud & Drop Earring Set</p>
+
             @foreach($store->widgets as $widget)
             <h3 class="fw-bold">{!! $widget->title !!}</h3>
             <p class="font-18">
                 {!! $widget->description !!}
             </p>
-            
+
+
 {{--            @if( strpos($widget->title, "Dove inserire il codice coupon") !== false)--}}
 {{--                <div style="padding:10px">--}}
 {{--                    --}}

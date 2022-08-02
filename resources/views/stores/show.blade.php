@@ -480,10 +480,32 @@
 
                     <div id="coupon-{{ $coupon->id }}" class="coupon" data-coupon-item data-coupon-id="{{ $coupon->id }}" data-index="{{$key}}"  >
                         <div class="coupon__body">
-                            <div class="coupon__aside" >
+                            <div
+                                    class="coupon__aside"
+                                    data-coupon-id='{{$coupon->id}}'
+                                    data-shop-name='{{$coupon->store->name}}'
+                                    title='{{ $coupon->title }}'
+                                    href="{{ route('open_coupon', $coupon) }}"
+                                    target='_blank'>
+
                                 <div class="coupon__logo coupon__logo--bg ">
-                                    <span class="coupon__amount">{{ $coupon->discount ?: 0 }} {{ $coupon->preference }}</span>
-                                    <span class="coupon__type">Discount</span>
+                                    <a
+                                            onclick="
+                            @if($coupon->offer == 0)
+                            window.location='{{$coupon->link}}'
+                            @endif
+                            "
+                                            href="{{ route('open_coupon', $coupon) }}"
+                                            target="_blank">
+                                        <img
+                                                alt="{{ $coupon->store->image->alt }}"
+                                                title="{{ $coupon->store->image->title }}"
+                                                class=""
+                                                height="100"
+                                                width="100"
+                                                src=""
+                                                srcset="{{$coupon->store->getStoreImage()}}?width=110&amp;height=110 1x, {{$coupon->store->getStoreImage()}}?width=220&amp;height=220&amp;quality=60 2x">
+                                    </a>
                                 </div>
                             </div>
                             <div class="coupon__right">
