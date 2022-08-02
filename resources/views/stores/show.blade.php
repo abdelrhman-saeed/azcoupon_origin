@@ -195,17 +195,12 @@
                     <div class="coupon__action">
                         <a
                             class="clickout btn"
+                            target='_blank'
                             data-coupon-id='{{ $coupon->id }}'
                             data-shop-name='{{ $coupon->store?->name }}'
                             title='{{ $coupon->title }}'
                             data-coupon-url='{{ $coupon->store?->aff_link }}'
                             href='{{ route("open_coupon", $coupon) }}'
-                            onclick="
-                                @if($coupon->offer)
-                                    window.location='{{$coupon->link}}'
-                                @endif
-                            "
-                            target='_blank'
                             title="{{ $coupon->description }}"
                             data-index="1">
                             <span class="h5 fw-bold"> GET {{ $coupon->offer ? 'OFFER' : 'CODE' }} </span>
@@ -408,7 +403,7 @@
 
                     <tr class="table-row table-row--hover">
                         <td class="fw-normal">
-                            <a href="{{ route('open_coupon', $coupon) }}">{{ $coupon->description ?: $coupon->title }}</a>
+                            {{ $coupon->description ?: $coupon->title }}
                         </td>
                         <td>{{$coupon->discount}}{{$coupon->preference}} Off</td>
                         <td>

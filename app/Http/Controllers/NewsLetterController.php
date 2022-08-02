@@ -12,11 +12,11 @@ class NewsLetterController extends Controller
 {
     public function subscribe()
     {
-        $mailchimp = new \MailchimpMarketing\ApiClient();
-        $mailchimp->setConfig([
-            'apiKey' => config('services.mailchimp.key'),
-            'server' => 'us5'
-        ]);
+//        $mailchimp = new \MailchimpMarketing\ApiClient();
+//        $mailchimp->setConfig([
+//            'apiKey' => config('services.mailchimp.key'),
+//            'server' => 'us5'
+//        ]);
         $data = array();
         $data['success'] = 0;
         $rules = [
@@ -37,10 +37,10 @@ class NewsLetterController extends Controller
         {
             try
             {
-                $response = $mailchimp->lists->addListMember("a3970cfb79", [
-                    'email_address' => request('email'),
-                    'status' => 'subscribed'
-                ]);
+//                $response = $mailchimp->lists->addListMember("a3970cfb79", [
+//                    'email_address' => request('email'),
+//                    'status' => 'subscribed'
+//                ]);
 
                 $data['success'] = 1;
                 $data['message'] = 'Ti sei iscritto con successo alla nostra newsletter.';
@@ -49,6 +49,7 @@ class NewsLetterController extends Controller
             }
             catch(\Exception $e)
             {
+                \Log::info($e->getMessage());
                 $data['message'] = 'Questa e-mail non può essere aggiunta alla nostra lista di newsletter O già presente';
             }
         }

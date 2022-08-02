@@ -260,7 +260,7 @@
         <ul class="shop-list-columns shop-list-columns-5">
             @forelse($featured_brands as $store)
             <li class="shop-list-columns__item">
-                <a href="{{ route('stores_events.show', $store->slug) }}">{{ $store->name }}</a>
+                <a href="{{ route('stores_events.show', $store->slug) }}" target="_blank">{{ $store->name }}</a>
             </li>
             @empty
             <p class='lead text-muted text-center'>Any Shop Available for today.</p>
