@@ -17,6 +17,9 @@
             text-decoration: none;
             color: #222;
         }
+        .coupon__title {
+            font-size: large;
+        }
     </style>
 @endsection
 
@@ -89,7 +92,7 @@
                     <div class="coupon__desc">
                         
                         <a
-                        class='coupon__title_link'
+                        class='coupon__title_link row h-100 align-items-center'
                         title='{{ $coupon->title }}' 
                         onclick="
                         @if($coupon->offer == 0)
@@ -127,7 +130,7 @@
                     </div>
                     <div class="coupon__action">
                         <a
-                            class="clickout btn"
+                            class="clickout btn text-white"
                             data-coupon-id='{{ $coupon->id }}'
                             data-shop-name='{{ $coupon->store?->name }}'
                             title='{{ $coupon->title }}'

@@ -7,7 +7,7 @@
     }
 </style>
 <div id='about-store'>
-    <h2 class='text-center'>Best Shopping with  {{ $store->name }} Promo Codes and Discounts</h2>
+    <h5>Best Shopping with  {{ $store->name }} Promo Codes and Discounts</h5>
     
     <div class='about-store-container text-left'>
         @for($i = 1; $i <= 8; $i++)

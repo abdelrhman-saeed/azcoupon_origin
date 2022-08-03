@@ -30,11 +30,11 @@
 
               <div class="col-md-8">
 
-                <h3 class="premium-slider__headline">{{ $slide->title }}</h3>
+                <h3 class="h3 premium-slider__headline">{{ $slide->title }}</h3>
 
                 <br>
 
-                <h3 class="premium-slider__content">{{ $slide->excerpt }}</h3>
+                <h3 class="h3 premium-slider__content">{{ $slide->excerpt }}</h3>
 
               </div>
 

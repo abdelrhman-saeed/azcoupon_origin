@@ -37,7 +37,7 @@
     </div>
 
     <div class="col-6 col-sm-7 col-md-6  text-uppercase text-center fw-bolder">
-        <h1 class="fw-bold" style="font-size: 1.3vw">
+        <h1 class="fw-bold" style="font-size: medium;">
             {{$super_featured_coupon->title ?: $super_featured_coupon->description}}
         </h1>
     </div>
