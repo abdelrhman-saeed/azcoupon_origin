@@ -82,16 +82,16 @@
             <div class="container">
                 <div class="row">
 
-                    <div style="margin:1%;" class="topbar-left col-sm-2 col-xs-10">
+                    <div class="topbar-left col-sm-2 col-xs-10 mt-1">
                         <a rel="follow" href="{{ route('home.index') }}" class="logo">
                             <img
-                                    style="height:100%"
+                                    style="height:80%"
                                     class='logo-image'
                                     width="100"
                                     height="20"
                                     title="home page di glam.it"
                                     alt="Glam"
-                                    src="{{ asset('assets/images/glam_1.svg') }}">
+                                    src="{{ asset('assets/images/icons/logo-svg.svg') }}">
                         </a>
                     </div>
 
@@ -620,18 +620,18 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Cormorant:wght@500&display=swap" rel="stylesheet">
 
-<link rel="apple-touch-icon" sizes="57x57" href="{{ asset('assets/images/icons/glam_favicon.svg') }}?width=57&amp;height=57&amp;format=png">
-<link rel="apple-touch-icon" sizes="72x72" href="{{ asset('assets/images/icons/glam_favicon.svg') }}?width=72&amp;height=72&amp;format=png">
-<link rel="apple-touch-icon" sizes="76x76" href="{{ asset('assets/images/icons/glam_favicon.svg') }}?width=76&amp;height=76&amp;format=png">
-<link rel="apple-touch-icon" sizes="114x114" href="{{ asset('assets/images/icons/glam_favicon.svg') }}?width=114&amp;height=114&amp;format=png">
-<link rel="apple-touch-icon" sizes="120x120" href="{{ asset('assets/images/icons/glam_favicon.svg') }}?width=120&amp;height=120&amp;format=png">
-<link rel="apple-touch-icon" sizes="144x144" href="{{ asset('assets/images/icons/glam_favicon.svg') }}?width=144&amp;height=144&amp;format=png">
-<link rel="apple-touch-icon" sizes="152x152" href="{{ asset('assets/images/icons/glam_favicon.svg') }}?width=152&amp;height=152&amp;format=png">
-<link rel="apple-touch-icon" sizes="180x180" href="{{ asset('assets/images/icons/glam_favicon.svg') }}?width=180&amp;height=180&amp;format=png">
+<link rel="apple-touch-icon" sizes="57x57" href="{{ asset('assets/images/icons/logo-svg.svg') }}?width=57&amp;height=57&amp;format=png">
+<link rel="apple-touch-icon" sizes="72x72" href="{{ asset('assets/images/icons/logo-svg.svg') }}?width=72&amp;height=72&amp;format=png">
+<link rel="apple-touch-icon" sizes="76x76" href="{{ asset('assets/images/icons/logo-svg.svg') }}?width=76&amp;height=76&amp;format=png">
+<link rel="apple-touch-icon" sizes="114x114" href="{{ asset('assets/images/icons/logo-svg.svg') }}?width=114&amp;height=114&amp;format=png">
+<link rel="apple-touch-icon" sizes="120x120" href="{{ asset('assets/images/icons/logo-svg.svg') }}?width=120&amp;height=120&amp;format=png">
+<link rel="apple-touch-icon" sizes="144x144" href="{{ asset('assets/images/icons/logo-svg.svg') }}?width=144&amp;height=144&amp;format=png">
+<link rel="apple-touch-icon" sizes="152x152" href="{{ asset('assets/images/icons/logo-svg.svg') }}?width=152&amp;height=152&amp;format=png">
+<link rel="apple-touch-icon" sizes="180x180" href="{{ asset('assets/images/icons/logo-svg.svg') }}?width=180&amp;height=180&amp;format=png">
 
-<link rel="shortcut icon" type="image/png" href="{{ asset('assets/images/icons/glam_favicon.svg') }}?width=48&amp;height=48&amp;format=png">
-<link rel="icon" type="image/png" sizes="96x96" href="{{ asset('assets/images/icons/glam_favicon.svg') }}?width=96&amp;height=96&amp;format=png">
-<link rel="icon" type="image/png" sizes="32x32" href="{{ asset('assets/images/icons/glam_favicon.svg') }}?width=32&amp;height=32&amp;format=png">
+<link rel="shortcut icon" type="image/png" href="{{ asset('assets/images/icons/logo-svg.svg') }}?width=48&amp;height=48&amp;format=png">
+<link rel="icon" type="image/png" sizes="96x96" href="{{ asset('assets/images/icons/logo-svg.svg') }}?width=96&amp;height=96&amp;format=png">
+<link rel="icon" type="image/png" sizes="32x32" href="{{ asset('assets/images/icons/logo-svg.svg') }}?width=32&amp;height=32&amp;format=png">
 
 <script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>

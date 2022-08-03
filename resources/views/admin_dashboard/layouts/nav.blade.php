@@ -3,7 +3,7 @@
     <div class="sidebar-header">
         <div>
             <img 
-            src="{{ asset('assets/images/icons/glam_favicon.svg') }}"
+            src="{{ asset('assets/images/icons/logo-svg.svg') }}"
             class="logo-icon" 
             alt="Glam.it">
         </div>

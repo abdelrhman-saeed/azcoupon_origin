@@ -18,8 +18,8 @@
             "url": "{{request()->getSchemeAndHttpHost()}}"
             "id": "{{url()->current()}}"
             "@type": "WebPage",
-            "image": "{{ asset('assets/images/icons/glam_favicon.svg') }}",
-            "logo": "{{ asset('assets/images/icons/glam_favicon.svg') }}",
+            "image": "{{ asset('assets/images/icons/logo-svg.svg') }}",
+            "logo": "{{ asset('assets/images/icons/logo-svg.svg') }}",
             "name": "{{$category->side_title}}",
             "description": "{{$category->side_description}}",
             "dateCreated": "{{$category->created_at}}",

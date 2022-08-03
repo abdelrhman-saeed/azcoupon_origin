@@ -7,7 +7,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="csrf-token" content="{{ csrf_token() }}">
 	<!--favicon-->
-	<link rel="icon" href="{{ asset('assets/images/icons/glam_favicon.svg') }}" type="image/svg" />
+	<link rel="icon" href="{{ asset('assets/images/icons/logo-svg.svg') }}" type="image/svg" />
 	<!--plugins-->
 	@yield("style")
 	<link href="{{ asset('admin_assets/plugins/simplebar/css/simplebar.css') }}" rel="stylesheet" />

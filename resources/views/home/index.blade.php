@@ -7,8 +7,8 @@
             "url": "{{request()->getSchemeAndHttpHost()}}"
             "id": "{{url()->current()}}"
             "@type": "WebPage",
-            "image": "{{ asset('assets/images/icons/glam_favicon.svg') }}",
-            "logo": "{{ asset('assets/images/icons/glam_favicon.svg') }}",
+            "image": "{{ asset('assets/images/icons/logo-svg.svg') }}",
+            "logo": "{{ asset('assets/images/icons/logo-svg.svg') }}",
 
             "Provider": {
                 "@type": "Organization",
@@ -35,7 +35,9 @@
     /*    font-size: 1em;*/
     /*}*/
 </style>
-<noscript><link rel="stylesheet" href="{{ asset('assets/css/home/style.css') }}"></noscript>
+<noscript>
+    <link rel="stylesheet" href="{{ asset('assets/css/home/style.css') }}">
+</noscript>
 
 @endsection
 
