@@ -382,13 +382,13 @@
                             data-coupon-id='{{ $coupon->id }}'
                             data-shop-name='{{ $coupon->store?->name }}'
                             title='{{ $coupon->title }}'
-                            data-coupon-url='{{ $coupon->store?->aff_link }}'
+{{--                            data-coupon-url='{{ $coupon->store?->aff_link }}'--}}
                             href='{{ route("open_coupon", $coupon) }}'
-                            onclick="
-                                @if($coupon->offer)
-                                    window.location='{{$coupon->link}}'
-                                @endif
-                            "
+{{--                            onclick="--}}
+{{--                                @if($coupon->offer)--}}
+{{--                                    window.location='{{$coupon->link}}'--}}
+{{--                                @endif--}}
+{{--                            "--}}
                             target='_blank'
                             title="{{ $coupon->description }}"
                             data-index="1">
