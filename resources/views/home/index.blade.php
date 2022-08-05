@@ -113,7 +113,7 @@
                         
                                     <span class="w-featured__shop-title">{{ $coupon->store?->name }}</span>
                         
-                                    <div class="w-featured__description">{{ \Str::limit($coupon->description, 60) }}</div>
+                                    <div class="w-featured__description">{{ \Str::limit($coupon->title, 60) }}</div>
                         
                                   
                                     <span class="coupon__label-code">

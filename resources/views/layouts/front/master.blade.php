@@ -376,8 +376,12 @@
             <span class="modal-clickout__updated"></span>
         </div>
 
-        <h3 class="coupon__title"></h3>
+        <h3 class="coupon__title mx-2 "></h3>
       </div>
+
+        <div class="modal-clickout__description p-1">
+            {{ $coupon->title }}
+        </div>
 
     </div>
 

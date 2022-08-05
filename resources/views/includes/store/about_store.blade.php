@@ -5,6 +5,10 @@
         border: 1px solid #f1f1f1;
         margin-bottom: 10px;
     }
+    .card img {
+        max-width: 100%;
+        height: auto !important;
+    }
 </style>
 <div id='about-store'>
     <h5>Best Shopping with  {{ $store->name }} Promo Codes and Discounts</h5>

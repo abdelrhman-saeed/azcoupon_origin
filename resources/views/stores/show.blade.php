@@ -11,32 +11,32 @@
 @section('pagename', 'shops show')
 
 @section("structured_schema")
+
     <script type="application/id+json">
-        {
-            "@context": "https://schema.org",
-            "url": "{{request()->getSchemeAndHttpHost()}}"
-            "id": "{{url()->current()}}"
-            "@type": "WebPage",
-            "image": "{{ asset('assets/images/icons/logo-svg.svg') }}",
-            "logo": "{{ asset('assets/images/icons/logo-svg.svg') }}",
-            "name": "{{$store->seo_title}}",
-            "description": "{{$store->seo_description}}",
-            "dateCreated": "{{$store->created_at}}",
-            "dateModified": "{{$store->updated_at}}",
+            {
+                "@context": "https://schema.org",
+                "url": "{{request()->getSchemeAndHttpHost()}}",
+                "contentUrl": "{{ asset('assets/images/icons/logo-svg.svg') }}",
+                "@type": "WebPage",
+                "image": "{{ $store->getStoreImage() }}",
+                "name": "{{$store->seo_title}}",
+                "description": "{{$store->seo_description}}",
+                "dateCreated": "{{$store->created_at}}",
+                "dateModified": "{{$store->updated_at}}",
+                "alternateName": {{ $store->name }},
 
-
-            "Provider": {
-                "@type": "Organization",
-                "name": "Glam Promo Codes",
-                "logo": {
+                "Provider": {
+                    "@type": "Organization",
+                    "name": "Glam Promo Codes",
+                    "logo": {
                     "@type": "ImageObject",
                     "contentUrl": "LOGO"
-                }
-            },
-            "@type": "BreadcrumbList",
-            "@type": "FAQPage"
+                    }
+                },
+                "@type": "BreadcrumbList",
+                "@type": "FAQPage"
         }
-    </script>
+</script>
 @endsection
 
 @section('css')
@@ -244,7 +244,7 @@
                 </div>
 
                 <div class="coupon__footer">
-                    <p>
+                    <p style="font-size: small";>
                         @if (count($coupon->couponterms))
                             <span class="m-0" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample{{$key}}" aria-expanded="false" aria-controls="collapseExample">
                                 Further details
@@ -351,7 +351,7 @@
                             <h3
                             data-coupon-id='{{$coupon->id}}'
                             data-shop-name='{{$coupon->store->name}}'
-                            class="coupon__title">
+                            class="coupon__title mx-2 ">
                                 {{ $coupon->title }}
                             </h3>
                         </a>
@@ -400,7 +400,7 @@
             </div>
 
             <div class="coupon__footer">
-                <p>
+                <p style="font-size: small;">
                     @if (count($coupon->couponterms))
                         <span class="m-0" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample{{$key}}random-text" aria-expanded="false" aria-controls="collapseExample">
                             Further details
@@ -431,22 +431,22 @@
                 <th>Expiry Date</th>
             </tr>
             @foreach($store_latest_coupons_offers as $coupon)
-                @if($coupon->description || $coupon->title)
 
                     <tr class="table-row table-row--hover">
                         <td class="fw-normal">
-                            {{ $coupon->description ?: $coupon->title }}
+                            {{ $coupon->title }}
                         </td>
-                        <td>{{$coupon->discount}}{{$coupon->preference}} Off</td>
                         <td>
-                            @if( $coupon->expire_date != '0000-00-00' && $coupon->expire_date != NULL )
+                            {{$coupon->discount}}{{$coupon->preference}} Off
+                        </td>
+                        <td>
+                            @if( ! $coupon->expired() )
                                 {{ \Carbon\Carbon::parse($coupon->expire_date)->translatedFormat('d F Y') }}
                             @else
                                 {{ $coupon->offer ? 'Active' : 'Active' }}
                             @endif
                         </td>
                     </tr>
-                @endif
             @endforeach
         </tbody>
     </table>
@@ -537,7 +537,7 @@
                             </div>
                             <div class="coupon__right">
                                 <div class="coupon__desc">
-                                    <h3  class="coupon__title">
+                                    <h3  class="coupon__title mx-2 ">
                                         {{ $coupon->title }}
                                     </h3>
                                 </div>

@@ -165,7 +165,7 @@
                 href="{{route('open_coupon', $coupon)}}"
                 target='_blank'
                 class="clickout btn">
-                    See {{ $coupon->offer ? 'offer' : 'voucher' }}
+                    GET {{ $coupon->offer ? 'offer' : 'voucher' }}
                     <span class="code">***</span>
                 </a>
             </div>
@@ -207,7 +207,7 @@
                 href="{{route('open_coupon', $coupon)}}" 
                 target='_blank' 
                 class="clickout btn">
-                    See {{ $coupon->offer ? 'offer' : 'voucher' }} 
+                    GET {{ $coupon->offer ? 'offer' : 'voucher' }}
                     <span class="code">***</span>
                     
                 </a>

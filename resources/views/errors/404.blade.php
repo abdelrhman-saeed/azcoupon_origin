@@ -80,8 +80,8 @@
                                 href="{{ route('open_coupon', $coupon) }}" 
                                 target="_blank">
                                 <p class="coupon__amount">
-                                    <span> {{ $coupon->discount ?: 0 }} </span>
-                                    <span> {{ $coupon->preference }} </span>
+                                    <span style="font-size: xx-large"> {{ $coupon->discount ?: 0 }} </span>
+                                    <span style="font-size: xx-large"> {{ $coupon->preference }} </span>
                                 </p>
                             </a>
                         </div>
@@ -104,7 +104,7 @@
                             <h3 
                             data-coupon-id='{{$coupon->id}}' 
                             data-shop-name='{{$coupon->store->name}}' 
-                            class="coupon__title">
+                            class="coupon__title mx-2 ">
                                 {{ $coupon->title }}
                             </h3>
                         </a>
@@ -144,7 +144,7 @@
                             target='_blank'
                             title="{{ $coupon->description }}"
                             data-index="1">
-                            See {{ $coupon->offer ? 'offer' : 'voucher' }}
+                            GET {{ $coupon->offer ? 'offer' : 'voucher' }}
                         </a>
                     </div>
                 </div>

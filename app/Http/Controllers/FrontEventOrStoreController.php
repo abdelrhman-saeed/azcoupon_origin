@@ -97,7 +97,7 @@ class FrontEventOrStoreController extends Controller
             'store_coupons_specific_month' => $setting->store_coupons_specific_month,
             'store_featured_coupons' => $store_coupons_offers->where('featured', 1),
             'store_coupons_at_sepcific_month' => $store_coupons_at_sepcific_month,
-            'store_latest_coupons_offers' => $store_non_featured_coupons->take($setting->store_latest_coupons_offers_num),
+            'store_latest_coupons_offers' => $store_non_featured_coupons->filter(fn($coupon) => $coupon->title )->take($setting->store_latest_coupons_offers_num),
             'store_expired_coupons_offers' => $store_expired_coupons_offers,
             'store_reviews' => $store_reviews,
             'all_coutpons_offers' => $store_coupons_offers->count(),

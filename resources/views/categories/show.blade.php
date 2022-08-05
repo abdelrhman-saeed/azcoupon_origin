@@ -88,7 +88,7 @@
 
       <!-- #content -->
 
-      <div class="col-lg-8" id="content" data-area="MB">
+      <div class="col-lg-8 order-1" id="content" data-area="MB">
     
 
   <div class="loader loader--coupons hidden" data-loader></div>
@@ -139,8 +139,8 @@
                                             data-normal="{{ $storeImage = $couponStore->getStoreImage() }}?width=110&amp;height=110"
                                             data-srcset="{{ $storeImage }}?width=110&amp;height=110 1x, {{ $storeImage }}?width=220&amp;height=220&amp;quality=60 2x">
                                 @else
-                                    <span class="coupon__amount">{{$coupon->discount}} {{ $coupon->preference }}</span>
-                                    <span class="coupon__type">{{ $coupon->offer == 1 ? 'Offer' : 'Code' }}</span>
+                                    <span class="coupon__amount" style="font-size: xx-large">{{$coupon->discount}} {{ $coupon->preference }}</span>
+                                    <span class="coupon__type" style="font-size: xx-large">{{ $coupon->offer == 1 ? 'Offer' : 'Code' }}</span>
                                 @endif
 
                             </a>
@@ -213,7 +213,7 @@
                 </div>
 
                 <div class="coupon__footer background--white">
-                    <p>
+                    <p style="font-size: small;">
                         @if (count($coupon->couponterms))
                             <span class="m-0" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample{{$key}}" aria-expanded="false" aria-controls="collapseExample">
                                 Further details
@@ -262,7 +262,7 @@
             </div>
 
             <div class="coupon__right ml-2">
-                <div class="coupon__desc row align-items-center">
+                <div class="coupon__desc row align-items-center mx-2">
                     <a
                     class='coupon__title_link'
                     title='{{ $coupon->title }}'
@@ -277,7 +277,7 @@
                         style="font-size: medium;"
                         data-coupon-id='{{$coupon->id}}'
                         data-shop-name='{{$coupon->store->name}}'
-                        class="coupon__title">
+                        class="mx-2">
                             {{ $coupon->title }}
                         </h3>
                     </a>
@@ -317,7 +317,7 @@
                         target='_blank'
                         title="{{ $coupon->description }}"
                         data-index="1">
-                        SEE {{ $coupon->offer ? 'OFFER' : 'CODE' }}
+                        GET {{ $coupon->offer ? 'OFFER' : 'CODE' }}
                     </a>
                     
                 </div>
@@ -325,7 +325,7 @@
         </div>
 
         <div class="coupon__footer background--white">
-            <p>
+            <p style="font-size: small;">
                 @if (count($coupon->couponterms))
                     <span class="m-0" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample{{$key}}random-text" aria-expanded="false" aria-controls="collapseExample">
                         Further details
@@ -349,7 +349,7 @@
 
         <!-- .sidebar -->
 
-        <div class="col-lg-4" data-area="SB">
+        <div class="col-lg-4 order-2" data-area="SB">
             <div class="shop-filter">
                 <h2 class="shop-filter__title">
                   Filter Results
@@ -498,8 +498,8 @@
                 @foreach($related_categories as $r_category)    
                     <li class="related__item">
                         <a 
-                        href="{{route('categories.show', $r_category->slug)}}" 
-                        title="{{$r_category->name}}" 
+                        href="{{route('categories.show', $r_category->slug)}}"
+                        title="{{$r_category->name}}"
                         class="related__link">
                             {{$r_category->name}}
                         </a>

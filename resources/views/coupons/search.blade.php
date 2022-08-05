@@ -91,7 +91,7 @@
                         <h3 
                         data-coupon-id='{{$coupon->id}}' 
                         data-shop-name='{{$coupon->store->name}}' 
-                        class="coupon__title">
+                        class="coupon__title mx-2 ">
                             {{ $coupon->title }}
                         </h3>
                     </a>
@@ -115,7 +115,7 @@
                         href="{{ route('open_coupon', $coupon) }}" 
                         target='_blank' 
                         class="clickout btn">
-                        See {{ $coupon->offer ? 'offer' : 'voucher' }} 
+                        GET {{ $coupon->offer ? 'offer' : 'voucher' }}
                         <span class="code">***</span>
                     </a>
                     
