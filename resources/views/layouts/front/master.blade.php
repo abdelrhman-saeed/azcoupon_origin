@@ -380,7 +380,7 @@
       </div>
 
         <div class="modal-clickout__description p-1">
-            {{ $coupon?->title }}
+            {{ ! isset($coupon) ?: $coupon->title }}
         </div>
 
     </div>
