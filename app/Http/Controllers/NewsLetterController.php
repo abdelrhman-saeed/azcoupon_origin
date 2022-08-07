@@ -43,7 +43,7 @@ class NewsLetterController extends Controller
 //                ]);
 
                 $data['success'] = 1;
-                $data['message'] = 'Ti sei iscritto con successo alla nostra newsletter.';
+                $data['message'] = 'You have successfully subscribed to our newsletter.';
 
                 Subscriber::create( $attributes );
             }
