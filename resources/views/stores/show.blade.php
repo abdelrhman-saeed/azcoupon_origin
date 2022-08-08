@@ -103,7 +103,7 @@
 
                 </div>
             </div>
-            <div class="title-and-filters-container row mb-5 col-9">
+            <div class="title-and-filters-container row col-9">
                 <h4 class=" col-12 my-1 fw-bold">
                     {!! str_replace('(v_date)', ucfirst( \Carbon\Carbon::parse(now()->toDateString())->translatedFormat('F Y') ), $store->title ) !!}
                 </h4>
@@ -339,7 +339,7 @@
                     <div class="coupon__desc row align-items-end">
 
                         <a
-                        class='coupon__title_link'
+                        class='coupon__title_link px-1'
                         title='{{ $coupon->title }}'
                         onclick="
                         @if($coupon->offer == 0)
@@ -348,12 +348,12 @@
                         "
                         href="{{ route('open_coupon', $coupon) }}"
                         target="_blank">
-                            <h3
+                            <h1
                             data-coupon-id='{{$coupon->id}}'
                             data-shop-name='{{$coupon->store->name}}'
-                            class="coupon__title mx-2 ">
+                            class="coupon__title mx-2 h5 fw-bold">
                                 {{ $coupon->title }}
-                            </h3>
+                            </h1>
                         </a>
 
                         <div class="coupon__text"
@@ -392,8 +392,7 @@
                             target='_blank'
                             title="{{ $coupon->description }}"
                             data-index="1">
-                            <span style="font-size: 0.7em"
-                                    class="fw-bold"> GET {{ $coupon->offer ? 'OFFER' : 'CODE' }} </span>
+                            <span class="fw-bold"> GET {{ $coupon->offer ? 'OFFER' : 'CODE' }} </span>
                         </a>
                     </div>
                 </div>

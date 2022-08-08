@@ -85,7 +85,7 @@ class FrontEventOrStoreController extends Controller
                                                                     ->take($setting->store_specific_month_coupons_num);
 
 
-        $store_expired_coupons_offers = Coupon::whereStoreId($store->id)->get()->filter(fn ($coupon) => $coupon->expired());
+        $store_expired_coupons_offers = Coupon::whereStoreId($store->id)->get()->filter(fn ($coupon) => $coupon->expired())->take(5);
 
 
         return view('stores.show', [
