@@ -79,7 +79,7 @@ class FrontEventOrStoreController extends Controller
 
         $store_coupons_offers = Coupon::whereStoreId($store->id)->NotExpired()->get();
 
-        $store_coupons_at_sepcific_month =
+        $store_coupons_at_specific_month =
             ( $store_non_featured_coupons = $store_coupons_offers->where('featured', 0) )
                                                                     ->sortByDesc('created_at')
                                                                     ->take($setting->store_specific_month_coupons_num);
@@ -96,8 +96,8 @@ class FrontEventOrStoreController extends Controller
             'related_categories' => $related_categories,
             'store_coupons_specific_month' => $setting->store_coupons_specific_month,
             'store_featured_coupons' => $store_coupons_offers->where('featured', 1),
-            'store_coupons_at_sepcific_month' => $store_coupons_at_sepcific_month,
-            'store_latest_coupons_offers' => $store_non_featured_coupons->filter(fn($coupon) => $coupon->title )->take(5),
+            'store_coupons_at_sepcific_month' => $store_coupons_at_specific_month,
+            'store_latest_coupons_offers' => $store_non_featured_coupons->filter(fn($coupon) => $coupon->title ),
             'store_expired_coupons_offers' => $store_expired_coupons_offers,
             'store_reviews' => $store_reviews,
             'all_coutpons_offers' => $store_coupons_offers->count(),

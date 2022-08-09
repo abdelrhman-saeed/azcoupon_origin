@@ -429,7 +429,7 @@
                 <th>Discount Code Type</th>
                 <th>Expiry Date</th>
             </tr>
-            @foreach($store_latest_coupons_offers as $coupon)
+            @foreach($store_latest_coupons_offers->take(5) as $coupon)
 
                     <tr class="table-row table-row--hover">
                         <td class="fw-normal">
