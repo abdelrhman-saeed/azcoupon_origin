@@ -315,11 +315,11 @@
 
                         <div class="coupon__logo coupon__logo--bg ">
                             <a
-                            onclick="
-                            @if($coupon->offer == 0)
-                            window.location='{{$coupon->link}}'
-                            @endif
-                            "
+{{--                            onclick="--}}
+{{--                            @if($coupon->offer == 0)--}}
+{{--                            window.location='{{$coupon->link}}'--}}
+{{--                            @endif--}}
+{{--                            "--}}
                             href="{{ route('open_coupon', $coupon) }}"
                             target="_blank">
                                 <img
@@ -342,9 +342,9 @@
                         class='coupon__title_link px-1'
                         title='{{ $coupon->title }}'
                         onclick="
-                        @if($coupon->offer == 0)
-                        window.location='{{$coupon->link}}'
-                        @endif
+{{--                        @if($coupon->offer == 0)--}}
+{{--                        window.location='{{$coupon->link}}'--}}
+{{--                        @endif--}}
                         "
                         href="{{ route('open_coupon', $coupon) }}"
                         target="_blank">
@@ -360,6 +360,7 @@
                              style="-webkit-line-clamp: unset; overflow: unset; text-overflow: unset; white-space: unset; max-height: unset;">
                             {{ $coupon->description }}
                         </div>
+
                         <div class="collapse p-0" id="collapseExample{{$key}}random-text">
                             <div class="card card-body bg-transparent border-0 p-0">
                                     @if (count($coupon->couponterms))
@@ -373,6 +374,17 @@
                                     @endif
                                 </div>
                         </div>
+
+                        <div class="coupon__footer">
+                            <p style="font-size: small;">
+                                @if (count($coupon->couponterms))
+                                    <span class="m-0" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample{{$key}}random-text" aria-expanded="false" aria-controls="collapseExample">
+                                        Further details
+                                    </span>
+                                @endif
+                                <span class="coupon__label-code">Code</span>
+                            </p>
+                        </div>
                     </div>
 
 
@@ -382,14 +394,16 @@
                             data-coupon-id='{{ $coupon->id }}'
                             data-shop-name='{{ $coupon->store?->name }}'
                             title='{{ $coupon->title }}'
-{{--                            data-coupon-url='{{ $coupon->store?->aff_link }}'--}}
+                            data-coupon-url='{{ $coupon->store?->aff_link }}'
+
+                            target='_blank'
+
                             href='{{ route("open_coupon", $coupon) }}'
 {{--                            onclick="--}}
-{{--                                @if($coupon->offer)--}}
+{{--                                @if( ! $coupon->offer)--}}
 {{--                                    window.location='{{$coupon->link}}'--}}
 {{--                                @endif--}}
 {{--                            "--}}
-                            target='_blank'
                             title="{{ $coupon->description }}"
                             data-index="1">
                             <span class="fw-bold"> GET {{ $coupon->offer ? 'OFFER' : 'CODE' }} </span>
@@ -398,16 +412,7 @@
                 </div>
             </div>
 
-            <div class="coupon__footer">
-                <p style="font-size: small;">
-                    @if (count($coupon->couponterms))
-                        <span class="m-0" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample{{$key}}random-text" aria-expanded="false" aria-controls="collapseExample">
-                            Further details
-                        </span>
-                    @endif
-                    <span class="coupon__label-code">Code</span>
-                </p>
-            </div>
+
         </div>
     @endforeach
 

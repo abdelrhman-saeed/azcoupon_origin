@@ -360,15 +360,15 @@
 
       <div class="modal-clickout__logo">
 
-        <a href="/vouchercodes/get/92779610?popup=true" target="_blank" data-element="MODL">
-            <img
+
+        <img
             alt="Garden Trading voucher codes"
             title="Garden Trading discount codes"
             height="100"
             width="100"
             src=""
-            srcset="">
-        </a>
+            srcset=""
+        >
       </div>
 
       <div class="modal-clickout__title">
@@ -534,9 +534,9 @@
                                 o = a.store.image ? a.store.image.alt : "",
                                 s = a.store.image ? a.store.image.title : "";
 
-                            $(".couponModal .modal-clickout__logo a > img").attr("srcset", t),
-                                $(".couponModal .modal-clickout__logo a > img").attr("alt", o),
-                                $(".couponModal .modal-clickout__logo a > img").attr("title", s),
+                            $(".couponModal .modal-clickout__logo  img").attr("srcset", t),
+                                $(".couponModal .modal-clickout__logo img").attr("alt", o),
+                                $(".couponModal .modal-clickout__logo img").attr("title", s),
                                 $(".couponModal .modal-clickout__title h3").text(a.description ?? ''),
                                 $(".couponModal .modal-clickout__title .modal-clickout__updated").text("Updated " + e.store_updated_at),
                                 $(".couponModal .modal-clickout__code-wrp .modal-clickout__code").text(a.code),
