@@ -376,12 +376,10 @@
             <span class="modal-clickout__updated"></span>
         </div>
 
-        <h3 class="coupon__title mx-2 "></h3>
+        <h3 class="coupon__title mx-2 ">
+            {{ ! isset($coupon) ?: $coupon->title  }}
+        </h3>
       </div>
-
-        <div class="modal-clickout__description p-1">
-            {{ ! isset($coupon) ?: $coupon->title }}
-        </div>
 
     </div>
 
@@ -537,7 +535,7 @@
                             $(".couponModal .modal-clickout__logo  img").attr("srcset", t),
                                 $(".couponModal .modal-clickout__logo img").attr("alt", o),
                                 $(".couponModal .modal-clickout__logo img").attr("title", s),
-                                $(".couponModal .modal-clickout__title h3").text(a.description ?? ''),
+                                // $(".couponModal .modal-clickout__title h3").text(a.description ?? ''),
                                 $(".couponModal .modal-clickout__title .modal-clickout__updated").text("Updated " + e.store_updated_at),
                                 $(".couponModal .modal-clickout__code-wrp .modal-clickout__code").text(a.code),
                                 $(".couponModal .modal-clickout__link-wrp .modal-clickout__link").attr("href", a.store.aff_link),
