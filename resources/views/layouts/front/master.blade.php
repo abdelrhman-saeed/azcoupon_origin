@@ -376,7 +376,7 @@
             <span class="modal-clickout__updated"></span>
         </div>
 
-        <h1 class="coupon__title mx-2 h1 fw-bold">
+        <h1 class="coupon__title mx-2 h4 fw-bold">
             {{ ! isset($coupon) ?: $coupon->title  }}
         </h1>
       </div>
