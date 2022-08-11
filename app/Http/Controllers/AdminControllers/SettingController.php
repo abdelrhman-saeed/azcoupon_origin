@@ -102,6 +102,8 @@ class SettingController extends Controller
             
             'sidebar_related_categories_num' => 'required|numeric|max:100',
             'sidebar_featured_stores_num' => 'required|numeric|max:100',
+            'global_site_tag' => 'nullable',
+            'push_engage_notifications' => 'nullable'
         ];
         
         $data['errors'] = array();

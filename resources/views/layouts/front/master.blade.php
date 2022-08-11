@@ -21,7 +21,7 @@
     <meta content="@yield('description', $home_meta_description)" name="description" />
 
     <!-- Global site tag (gtag.js) - Google Analytics -->
-{{--    {!! $global_site_tag !!}--}}
+    {!! $global_site_tag !!}
 {{--    @yield('canonical')--}}
 
     <title>@yield('title', $home_meta_title)</title>
@@ -306,7 +306,7 @@
                 <div class="t-corp-list p-0">
 
                     @foreach($static_pages as $page)
-                        <span class="footer-list-corporate__item">
+                        <span class="fooscter-list-corporate__item">
                             <a
                                     class="footer-list-corporate__link font-16 mr-3"
                                     href="{{ route('stores_events.show', $page->slug) }}"> {{ $page->title }}
