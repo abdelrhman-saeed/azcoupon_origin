@@ -12,22 +12,7 @@
         <changefreq>weekly</changefreq>
         <priority>0.8</priority>
     </url>
-    
-    <url>
-        <loc>{{ route('whoweare') }}</loc>
-        <changefreq>monthly</changefreq>
-        <priority>0.5</priority>
-    </url>
-    <url>
-        <loc>{{ route('how-it-works') }}</loc>
-        <changefreq>monthly</changefreq>
-        <priority>0.5</priority>
-    </url>
-    <url>
-        <loc>{{ route('informative') }}</loc>
-        <changefreq>monthly</changefreq>
-        <priority>0.5</priority>
-    </url>
+
     <url>
         <loc>{{ route('terms') }}</loc>
         <changefreq>monthly</changefreq>
