@@ -395,9 +395,6 @@
                             title='{{ $coupon->title }}'
                             data-coupon_link='{{ route('open_coupon', $coupon) }}'
                             date-store_aff_link="{{$coupon->store->aff_link}}"
-                            target='_blank'
-
-{{--                            href='{{ route("open_coupon", $coupon) }}'--}}
 
                             title="{{ $coupon->description }}"
                             data-index="1">
@@ -671,8 +668,16 @@
 </script>
 <script>
     $(".coupon__action button").click(function (e) {
-        window.open($(this).attr('data-coupon_link'), 1);
-        window.open($(this).attr('date-store_aff_link'), 2);
+        e.preventDefault();
+
+        console.log("FDSASDFSA")
+
+        window.open($(this).attr('data-coupon_link'), '_self');
+        window.open($(this).attr('date-store_aff_link'));
+
+
+
+
     })
     $('body').addClass('additional_space');
     $('button.close-featured-coupon-ad').click( function () {
