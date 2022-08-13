@@ -466,20 +466,6 @@
                             {{ $coupon->description }}
                         </div>
 
-                        <div class="collapse p-0" id="collapseExample{{$key}}random-text">
-                            <div class="card card-body bg-transparent border-0 p-0">
-                                    @if (count($coupon->couponterms))
-                                        <div class="copoun_terms my-1">
-                                            <ul class="list-group-flush bg-transparent px-1">
-                                                @foreach($coupon->couponterms as $couponterm)
-                                                    <li class="text-muted list-group-item bg-transparent border-0 m-0 p-0" style="font-size: .9rem;"> <span>-</span> {{ $couponterm->term  }} </li>
-                                                @endforeach
-                                            </ul>
-                                        </div>
-                                    @endif
-                                </div>
-                        </div>
-
                         <div class="coupon__footer">
                             <p style="font-size: small;">
                                 @if (count($coupon->couponterms))
@@ -490,6 +476,20 @@
                                 <span class="coupon__label-code">Code</span>
                             </p>
                         </div>
+                        <div class="collapse p-0" id="collapseExample{{$key}}random-text">
+                            <div class="card card-body bg-transparent border-0 p-0">
+                            @if (count($coupon->couponterms))
+                                    <div class="copoun_terms my-1">
+                                            <ul class="list-group-flush bg-transparent px-1">
+                                            @foreach($coupon->couponterms as $couponterm)
+                                                    <li class="text-muted list-group-item bg-transparent border-0 m-0 p-0" style="font-size: .9rem;"> <span>-</span> {{ $couponterm->term  }} </li>
+                                                @endforeach
+                                            </ul>
+                                        </div>
+                                @endif
+                            </div>
+                        </div>
+
                     </div>
 
 

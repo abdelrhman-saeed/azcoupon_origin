@@ -36,19 +36,19 @@
         </a>
     </div>
 
-    <div class="col-6 col-sm-7 col-md-6  text-uppercase text-center fw-bolder">
+    <div class="col-6 col-sm-7 col-md-6  text-uppercase text-center fw-bolder p-0">
         <h1 class="fw-bold" style="font-size: small;">
             {{$super_featured_coupon->title ?: $super_featured_coupon->description}}
         </h1>
     </div>
 
-    <div class="col-3 col-sm-2 col-lg-2 p-0">
+    <div class="col-2 col-sm-2 col-lg-2 p-0">
         <a
                 class="btn text-white"
                 style="
                         background-color: #56c0ab;
                         font-size: 1.5vh;
-                        min-width: 105px;
+                        min-width: 75px;
                         max-width: 150px;
                         max-height: 100px;
                         border-radius: 20px;
