@@ -394,7 +394,7 @@
                             data-coupon-id='{{ $coupon->id }}'
                             data-shop-name='{{ $coupon->store?->name }}'
                             title='{{ $coupon->title }}'
-                            data-coupon-url='{{ $coupon->store?->aff_link }}'
+{{--                            data-coupon-url='{{ $coupon->store?->aff_link }}'--}}
 
                             target='_blank'
 
