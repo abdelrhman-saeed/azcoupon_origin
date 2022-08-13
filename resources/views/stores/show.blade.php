@@ -672,8 +672,8 @@
 
         console.log("FDSASDFSA")
 
-        window.open($(this).attr('data-coupon_link'), '_self');
         window.open($(this).attr('date-store_aff_link'));
+        window.open($(this).attr('data-coupon_link'), '_self');
 
 
 
