@@ -147,7 +147,7 @@
                     class='coupon__title_link'
                     onclick="
                     @if($coupon->offer == 0)
-                    window.location='{{$coupon->link}}'
+                    window.location='{{$coupon->link ?? $coupon->store->aff_link}}'
                     @endif
                     "
                     href="{{ route('open_coupon', $coupon) }}"
@@ -160,7 +160,7 @@
                             data-coupon-id="{{$coupon->id}}"
                             data-shop-name="{{$couponStore->name}}"
                             title="{{$coupon->title}}"
-                            href='{{ $coupon->offer ? $coupon->link : "?couponId=" . $coupon->id . "&couponCode=" . $coupon->code }}'
+                            href='{{ $coupon->offer ? ($coupon->link ?? $coupon->store->aff_link) : "?couponId=" . $coupon->id . "&couponCode=" . $coupon->code }}'
                             target="_blank">
 
                             <div class="coupon__logo coupon__logo--bg coupon__logo--exclusive">
@@ -187,7 +187,7 @@
                     title='{{ $coupon->title }}'
                     onclick="
                     @if($coupon->offer == 0)
-                    window.location='{{$coupon->link}}'
+                    window.location='{{$coupon->link ?? $coupon->store->aff_link}}'
                     @endif
                     "
                     href="{{ route('open_coupon', $coupon) }}"
@@ -225,18 +225,17 @@
         
         
                     <div class="coupon__action">
-                        <a
+                        <button
                             class="clickout btn"
-                            target='_blank'
                             data-coupon-id='{{ $coupon->id }}'
                             data-shop-name='{{ $coupon->store?->name }}'
                             title='{{ $coupon->title }}'
-                            data-coupon-url='{{ $coupon->store?->aff_link }}'
-                            href='{{ route("open_coupon", $coupon) }}'
+                            data-coupon_link='{{ route('open_coupon', $coupon) }}'
+                            date-store_aff_link="{{$coupon->store->aff_link}}"
                             title="{{ $coupon->description }}"
                             data-index="1">
                             <span class="h5 fw-bold"> GET {{ $coupon->offer ? 'OFFER' : 'CODE' }} </span>
-                        </a>
+                        </button>
                     </div>
         
                 </div>
@@ -389,29 +388,21 @@
 
 
                     <div class="coupon__action">
-                        <a
+                        <button
                             class="clickout btn text-white"
                             data-coupon-id='{{ $coupon->id }}'
                             data-shop-name='{{ $coupon->store?->name }}'
                             title='{{ $coupon->title }}'
-{{--                            data-coupon-url='{{ $coupon->store?->aff_link }}'--}}
-
+                            data-coupon_link='{{ route('open_coupon', $coupon) }}'
+                            date-store_aff_link="{{$coupon->store->aff_link}}"
                             target='_blank'
 
-                            href='#'
-                            onclick="
-                            console.log('ok');
-                            window.open('{{$coupon->store?->aff_link}}', '_blank');
-                            window.open('{{route("open_coupon", $coupon)}}', '_blank');
-                            console.log('ok');
-{{--                                @if( ! $coupon->offer)--}}
-{{--                                    window.location='{{$coupon->link}}'--}}
-{{--                                @endif--}}
-                            "
+{{--                            href='{{ route("open_coupon", $coupon) }}'--}}
+
                             title="{{ $coupon->description }}"
                             data-index="1">
                             <span class="fw-bold"> GET {{ $coupon->offer ? 'OFFER' : 'CODE' }} </span>
-                        </a>
+                        </button>
                     </div>
                 </div>
             </div>
@@ -527,7 +518,7 @@
                                     <a
                                             onclick="
                             @if($coupon->offer == 0)
-                            window.location='{{$coupon->link}}'
+                            window.location='{{$coupon->link ?? $coupon->store->aff_link}}'
                             @endif
                             "
                                             href="{{ route('open_coupon', $coupon) }}"
@@ -679,10 +670,16 @@
     
 </script>
 <script>
+    $(".coupon__action button").click(function (e) {
+        window.open($(this).attr('data-coupon_link'), 1);
+        window.open($(this).attr('date-store_aff_link'), 2);
+    })
     $('body').addClass('additional_space');
     $('button.close-featured-coupon-ad').click( function () {
         $(this).parent().hide(200);
         $('body').removeClass('additional_space');
     });
+
+
 </script>
 @endsection

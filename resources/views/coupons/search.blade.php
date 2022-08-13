@@ -83,7 +83,7 @@
                     title='{{ $coupon->title }}' 
                     onclick="
                     @if($coupon->offer == 0)
-                    window.location='{{$coupon->link}}'
+                    window.location='{{$coupon->link ?? $coupon->store->aff_link}}'
                     @endif
                     " 
                     href="{{ route('open_coupon', $coupon) }}" 
@@ -109,7 +109,7 @@
                         title='{{ $coupon->title }}' 
                         onclick="
                         @if($coupon->offer == 0)
-                        window.location='{{$coupon->link}}'
+                        window.location='{{$coupon->link ?? $coupon->store->aff_link}}'
                         @endif
                         " 
                         href="{{ route('open_coupon', $coupon) }}" 

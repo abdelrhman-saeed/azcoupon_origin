@@ -41,7 +41,7 @@
                         <h4 class="of__title">
                             <a 
                                 rel="nofollow"
-                                href="{{ $coupon->link }}"
+                                href="{{ $coupon->link ?? $coupon->store->aff_link }}"
                                 class="of__link" 
                                 title="{{ $coupon->description }}">{{ $coupon->description }}
                             </a>

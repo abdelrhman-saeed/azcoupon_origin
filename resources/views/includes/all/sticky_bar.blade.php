@@ -60,7 +60,7 @@
                 href='{{ route("open_coupon", $super_featured_coupon) }}'
                 onclick="
                                     @if($super_featured_coupon->offer)
-                                        window.location='{{$super_featured_coupon->link}}'
+                                        window.location='{{$super_featured_coupon->link ?? $super_featured_coupon->store->aff_link}}'
                                     @endif
                                 "
                 target='_blank'

@@ -3,7 +3,7 @@
 <div id='c_{{ $coupon->id }}' class="coupon-wrapper coupon-single {{ $coupon->offer == '1' ? 'offer' : 'coupon' }}">
     
     <div class="row cursor-pointer">
-        <a class='store-link' href="{{ $coupon->link != '' ? $coupon->link : $coupon->store->link }}"></a>
+        <a class='store-link' href="{{ $coupon->link != '' ? $coupon->link : $coupon->store->aff_link }}"></a>
 
         <div class="coupon-data col-sm-3 text-center">
             <div class="savings text-center">

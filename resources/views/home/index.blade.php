@@ -89,7 +89,7 @@
                         href='{{ route("open_coupon", $coupon) }}' 
                         onclick="
                         @if($coupon->offer)
-                        window.location='{{$coupon->link}}'
+                        window.location='{{ $coupon->link ?? $coupon->store->aff_link  }}'
                         @endif
                         " 
                         target='_blank' 
@@ -244,7 +244,7 @@
                         href='{{ route("open_coupon", $coupon) }}' 
                         onclick="
                         @if($coupon->offer)
-                        window.location='{{$coupon->link}}'
+                        window.location='{{$coupon->link ?? $coupon->store->aff_link}}'
                         @endif
                         " 
                         target='_blank' 

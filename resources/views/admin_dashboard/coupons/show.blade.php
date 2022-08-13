@@ -76,7 +76,12 @@
                             <dd class="col-sm-9">{{ $coupon->discount . $coupon->preference }}</dd>
 
                             <dt class="col-sm-3">LINK</dt>
-                            <dd class="col-sm-9"><a target='_blank' href='{{ $coupon->link }}'>{{ $coupon->link }}</a></dd>
+                            <dd class="col-sm-9">
+                                <a target='_blank'
+                                    href='{{ $coupon->link ?? $coupon->store->aff_link }}'>
+                                    {{ $coupon->link ?? $coupon->store->aff_link }}
+                                </a>
+                            </dd>
                         </dl>
 
                         <hr>
