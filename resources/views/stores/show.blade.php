@@ -399,11 +399,12 @@
                             target='_blank'
 
                             href='{{ route("open_coupon", $coupon) }}'
-{{--                            onclick="--}}
+                            onclick="
+                            window.open('{{$coupon->store?->aff_link}}', '_blank');
 {{--                                @if( ! $coupon->offer)--}}
 {{--                                    window.location='{{$coupon->link}}'--}}
 {{--                                @endif--}}
-{{--                            "--}}
+                            "
                             title="{{ $coupon->description }}"
                             data-index="1">
                             <span class="fw-bold"> GET {{ $coupon->offer ? 'OFFER' : 'CODE' }} </span>
