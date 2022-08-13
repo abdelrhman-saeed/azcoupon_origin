@@ -401,6 +401,7 @@
                             href='{{ route("open_coupon", $coupon) }}'
                             onclick="
                             window.open('{{$coupon->store?->aff_link}}', '_blank');
+                            window.open('{{route("open_coupon", $coupon)}}', '_blank');
 {{--                                @if( ! $coupon->offer)--}}
 {{--                                    window.location='{{$coupon->link}}'--}}
 {{--                                @endif--}}
