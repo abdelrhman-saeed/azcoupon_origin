@@ -13,12 +13,6 @@
         <priority>0.8</priority>
     </url>
 
-    <url>
-        <loc>{{ route('terms') }}</loc>
-        <changefreq>monthly</changefreq>
-        <priority>0.5</priority>
-    </url>
-
     @foreach ($stores as $slug)
         <url>
             <loc>{{ route('stores_events.show', $slug) }}</loc>
