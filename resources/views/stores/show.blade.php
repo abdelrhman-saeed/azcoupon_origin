@@ -1,3 +1,109 @@
+{{-- the modal --}}
+<div class="modal d-none couponModal" id="my-modal" data-area="MOD">
+
+    <div class="modal__dialog">
+
+        <button class="btn btn--close modal__close-btn" style="color:#000;">x</button>
+
+        <div class="modal__content">
+
+
+            <!-- .modal-clickout -->
+
+            <div class="modal-clickout">
+
+                <div class="modal-clickout__info">
+
+                    <div class="modal-clickout__logo">
+
+
+                        <img
+                                alt="Garden Trading voucher codes"
+                                title="Garden Trading discount codes"
+                                height="100"
+                                width="100"
+                                src=""
+                                srcset=""
+                        >
+                    </div>
+
+                    <div class="modal-clickout__title">
+                        <div class="modal-clickout__time-box">
+                            <span class="modal-clickout__updated"></span>
+                        </div>
+
+                        <h1 class="coupon__titleddd mx-2 h4 fw-bold">
+
+                            {{ ! isset($coupon) ?: $coupon->title  }}
+                        </h1>
+                    </div>
+
+                </div>
+
+
+                <div class="modal-clickout__code-wrp">
+
+                    <span class="modal-clickout__code"></span>
+
+                    <button class="btn btn--warning modal-clickout__copy zclip copy-btn" data-clippboard-action="copy" data-clipboard-target=".modal-clickout__code" data-coupon-code="V0VMQ09NRTIw
+" data-clickout-url="">
+
+                        <span class="copy-text">Copy</span>
+                        <span class="copied-text hidden">
+                Copied
+            </span>
+                    </button>
+                    <p class="modal-clickout__copy-text" data-message="Paste the code during checkout Garden Trading">
+                        Paste the code during checkout
+                    </p>
+
+                </div>
+
+                <div class="modal-clickout__link-wrp modal-clickout__code-wrp px-6 py-3">
+
+                    <a class="btn modal-clickout__link text-white"
+                       href="#"
+                       data-coupon-id=""
+                       target="_blank"
+                       rel="nofollow"
+                       data-element="MODB"> Visit {{!isset($coupon) ?: $coupon->store->name}} </a>
+
+                </div>
+
+                <div class="modal-clickout__link-wrp modal-clickout__code-wrp pb-5" style="text-align: left !important;">
+
+                    <h1 class="h5">Never miss again a coupon: let us notify for every new Code or sale.</h1>
+                    <div>
+                        <i class="h1 text-success bi bi-whatsapp d-inline-block mr-2"></i>
+                        <p class="font-bold d-inline-block">Coupons on Whatsapp</p>
+                    </div>
+                    <form action="{{url('subscribers')}}" method="post" class="subscription_form">
+                        @csrf
+                        <div class="my-3">
+                            <label class="w-50" for="phone_number">Phone Number +852</label>
+                            <input type="text" id="phone" class="border-dark" name="phone">
+                        </div>
+                        <div>
+                            <label class="w-50" for="nickname">Nickname</label>
+                            <input type="text" id="nickname" class="border-dark" name="nickname">
+                        </div>
+                        <p class="res-message"></p>
+                        <button class="mt-2 btn modal-clickout__link bg-success text-white">Subscribe</button>
+                    </form>
+                </div>
+
+            </div>
+
+            <!-- ./modal-clickout -->
+
+        </div>
+
+    </div>
+
+</div>
+
+
+{{-- modal end --}}
 @extends('layouts.front.master')
 @section('title', str_replace('(v_date)', ucfirst(\Carbon\Carbon::parse(now()->toDateString())->translatedFormat('F Y')), $store->seo_title))
 
@@ -393,7 +499,7 @@
                             data-coupon-id='{{ $coupon->id }}'
                             data-shop-name='{{ $coupon->store?->name }}'
                             title='{{ $coupon->title }}'
-                            data-coupon_link='{{ route('open_coupon', $coupon) }}'
+                            data-coupon_link='{{ route('open_coupon', $coupon->id) }}'
                             date-store_aff_link="{{$coupon->store->aff_link}}"
 
                             title="{{ $coupon->description }}"
@@ -668,17 +774,10 @@
 </script>
 <script>
     $(".coupon__action button").click(function (e) {
-        e.preventDefault();
+        window.open($(this).attr('data-coupon_link'));
+        window.open($(this).attr('date-store_aff_link'), '_self');
+    });
 
-        console.log("FDSASDFSA")
-
-        window.open($(this).attr('date-store_aff_link'));
-        window.open($(this).attr('data-coupon_link'), '_self');
-
-
-
-
-    })
     $('body').addClass('additional_space');
     $('button.close-featured-coupon-ad').click( function () {
         $(this).parent().hide(200);

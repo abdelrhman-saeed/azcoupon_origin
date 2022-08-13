@@ -13,7 +13,6 @@ class FrontEventOrStoreController extends Controller
 {
     public function show($slug)
     {
-
         if ( $page = Page::where('active', 1)->where('slug', $slug)->first() ) {
             return $this->showPage($page);
         }
@@ -102,6 +101,7 @@ class FrontEventOrStoreController extends Controller
             'store_reviews' => $store_reviews,
             'all_coutpons_offers' => $store_coupons_offers->count(),
             'last_updated_at' => $store->updated_at->toDateString(),
+            'coupon' => Coupon::whereId(request()->input('couponId'))->first(),
         ]);
 
 //        $store_featured_coupons = $store->coupons()
