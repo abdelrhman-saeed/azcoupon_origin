@@ -34,9 +34,12 @@ class CouponController extends Controller
                 'coupons' => Coupon::latest()
                     ->with('store')
                     ->where('offer', 0)
-                    ->orWhere('title', 'like', "%$search_word%")
-                    ->orWhere('description', 'like', "%$search_word%")
-                    ->orWhere('code', 'like', "%$search_word%")
+                    ->where(function($query) use ( $search_word ) {
+                        $query
+                        ->where('title', 'like', "%$search_word%")
+                        ->orWhere('description', 'like', "%$search_word%")
+                        ->orWhere('code', 'like', "%$search_word%");
+                    })
                     ->orderBy('updated_at', 'DESC')
                     ->paginate(20)
             ]);
