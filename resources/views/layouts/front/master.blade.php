@@ -9,11 +9,11 @@
 
   <style>
 /*Default Banner*/
-{{--  a.sticky-bar{z-index:998;background:url({{ asset('storage/images/static/super_featured_background.webp') }}?width=1900&format=jpg) no-repeat;background-size:cover;width:100%;height:80px;bottom:0;left:0;position:fixed;color:#fff;transform:translateY(120px);transition:transform ease-in-out .3s;will-change:transform}@media (max-width:767px){a.sticky-bar--hidden{display:none}}a.sticky-bar:active,a.sticky-bar:hover,a.sticky-bar:visited{color:#fff;text-decoration:none}.sticky-bar .container,.sticky-bar .row{height:100%;background:0 0}.sticky-bar__close{position:absolute;right:8px;top:-40px;display:block;text-align:center;font-size:13px;cursor:pointer;height:30px;width:30px;background:#fff;border-radius:50%;padding:6px}.sticky-bar__close svg{vertical-align:top}.sticky-bar__close path{fill:#758897}.sticky-bar__wrapper{width:100%;height:100%;display:-webkit-box;display:-ms-flexbox;display:flex;-ms-flex-pack:distribute;justify-content:space-around;-webkit-box-align:center;-ms-flex-align:center;align-items:center}.sticky-bar__logo{max-height:80px;max-width:300px}.sticky-bar__header{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-orient:vertical;-webkit-box-direction:normal;-ms-flex-direction:column;flex-direction:column;-webkit-box-align:center;-ms-flex-align:center;align-items:center;text-align:center}.sticky-bar__name{color:#fff;font-family:Arial,sans-serif;text-transform:uppercase;font-weight:900;font-size:28px;line-height:1}.sticky-bar__name small{font-size:12px}.sticky-bar__cta{-ms-flex-item-align:center;align-self:center;background-color:#56c0ab;color:#fff;display:inline-block;padding:10px 25px;margin-right:57px;border-radius:20px;white-space:nowrap}.sticky-bar__cta:hover{opacity:.6;text-decoration:none}@media (max-width:992px){.sticky-bar__cta{margin-right:0}.sticky-bar__logo{max-width:120px}}@media (max-width:767px){.hide-mobile{display:none!important}}@media (max-width:767px){.sticky-bar__wrapper{padding:0 10px}.sticky-bar__logo{max-width:80px}.sticky-bar__name{font-size:15px}.sticky-bar__name small{font-size:10px}.sticky-bar__cta{padding:8px 11px;font-size:12px}.sticky-bar .container,.sticky-bar .row{height:100%}}--}}
 </style>
 
   <meta charset="utf-8">
 
+    <script src="{{ asset('assets/js/jquery.min.js') }}"></script>
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
 
@@ -26,17 +26,8 @@
 
     <title>@yield('title', $home_meta_title)</title>
 
-    <!--<script type="text/javascript">-->
-    <!--    if (typeof newrelic != 'undefined') {-->
-    <!--      newrelic.setErrorHandler(function (err) {-->
-    <!--        return (!Modernizr.flexbox || !Modernizr.supports);-->
-    <!--      });-->
-    <!--    }-->
-    <!--</script>-->
 
 <meta name="robots" content="index,follow">
-
-{{--<link href="{{ asset('css/app.css') }}" rel="stylesheet">--}}
 
     <meta name="theme-color" content="#ffffff">
 
@@ -322,26 +313,6 @@
     @yield('at-the-end-of-the-footer')
 </div>
 
-<!--<div class="flyout flyout--first" data-flyout-id="9354479" data-area="BA" data-element="FLY" role="presentation" aria-hidden="true">-->
-<!--    <div class="flyout__logo flyout__logo--first">-->
-<!--        <span class="flyout__amount" style="width: 80px; display: block">Every Deal</span>-->
-<!--        <span class="flyout__type" style="width: 80px; display: block">Here</span>-->
-<!--    </div>-->
-<!--  <div class="flyout__text">-->
-
-<!--    Find every Travelodge promo code &amp; offer here - 5% off or more-->
-
-<!--  </div>-->
-
-<!--  <span class="flyout__close-btn"></span>-->
-
-<!--  <span class="flyout__clickout flyout__clickout--first clickout " data-id="24984" data-coupon-id='9354479' data-shop-name='Travelodge' data-coupon-title='Find every Travelodge promo code & offer here - 5% off or more' data-coupon-url='/vouchercodes/get/9354479' href='#id-9354479' target='_blank'>-->
-
-<!--      <a class="flyout__button">Copy</a>-->
-
-<!--  </span>-->
-<!--</div>-->
-
 
 
 
@@ -400,7 +371,7 @@
     !function(){var e=document.querySelector(".t-footer__to-top");e&&e.addEventListener("click",function(e){e.preventDefault(),window.scrollTo({top:0,behavior:"smooth"})});var t=(new Date).getFullYear(),o=document.getElementById("copyrightYear");o&&(o.innerHTML=t)}();
 </script>
 
-<script src="{{ asset('assets/js/jquery.min.js') }}"></script>
+
 <script src="{{ asset('plugins/intl-tel-input/build/js/intlTelInput-jquery.min.js') }}"></script>
 <script src="https://cdn.jsdelivr.net/npm/clipboard@1/dist/clipboard.min.js"></script>
 

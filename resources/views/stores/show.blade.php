@@ -16,15 +16,6 @@
 
                     <div class="modal-clickout__logo">
 
-
-                        <img
-                                alt="Garden Trading voucher codes"
-                                title="Garden Trading discount codes"
-                                height="100"
-                                width="100"
-                                src=""
-                                srcset=""
-                        >
                     </div>
 
                     <div class="modal-clickout__title">
@@ -53,7 +44,7 @@
                 Copied
             </span>
                     </button>
-                    <p class="modal-clickout__copy-text" data-message="Paste the code during checkout Garden Trading">
+                    <p class="modal-clickout__copy-text" data-message="Paste the code during checkout">
                         Paste the code during checkout
                     </p>
 

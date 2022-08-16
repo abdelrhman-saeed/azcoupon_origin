@@ -87,44 +87,6 @@
               </svg>
             </div>
           </a>
-{{--          <div class="t-topbar__right">--}}
-{{--            <a class="t-topbar__subscribe" href="https://www.glam.co.uk/vouchercodes/out/63408">--}}
-{{--              <span class="t-topbar__subscribe-text">Subscribe now</span>--}}
-{{--              <span class="t-topbar__subscribe-desc">Free for one month</span>--}}
-{{--            </a>--}}
-{{--            <div class="backlink-wrapper">--}}
-{{--              <a class="backlink" href="https://www.glam.co.uk/">Glam</a>--}}
-{{--            </div>--}}
-{{--          </div>--}}
-{{--        </div>--}}
-{{--      </div>--}}
-{{--    </div>--}}
-{{--    <!-- .topbar -->--}}
-
-{{--<header class="topbar" role="banner" data-area="HD">--}}
-
-{{--  <div class="container">--}}
-
-{{--    <div class="row">--}}
-
-{{--      <!-- .topbar__logo -->--}}
-
-{{--<a href="https://www.glam.co.uk/" class="topbar__logo" rel="" title="Glam">--}}
-
-
-{{--    <img srcset="https://www.glam.co.uk/vouchercodes/static/image_setting/121/logo/5411870d-7173-4e1f-98d2-a150f302a996.png?height=70 1x, https://www.glam.co.uk/vouchercodes/static/image_setting/121/logo/5411870d-7173-4e1f-98d2-a150f302a996.png?height=140&amp;quality=60 2x" alt="Glam" title="Glam" height="70" src="https://www.glam.co.uk/vouchercodes/static/image_setting/121/logo/5411870d-7173-4e1f-98d2-a150f302a996.png?height=70">--}}
-
-
-{{--</a>--}}
-
-{{--<!-- /.topbar__logo -->--}}
-
-
-{{--    </div>--}}
-
-{{--  </div>--}}
-
-{{--</header>--}}
 
 <!-- ./topbar -->
 

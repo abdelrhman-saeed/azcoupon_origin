@@ -196,13 +196,7 @@
                                 data-coupon-id='{{ $coupon->id }}'
                                 data-shop-name='{{ $coupon->store->name }}'
                                 title='{{ $coupon->title }}'
-{{--                                data-coupon-url='{{ $coupon->store?->aff_link }}'--}}
                                 href='{{ route("open_coupon", $coupon) }}'
-{{--                                onclick="--}}
-{{--                                    @if($coupon->offer)--}}
-{{--                                        window.location='{{$coupon->link}}'--}}
-{{--                                    @endif--}}
-{{--                                "--}}
                                 target='_blank'
                                 title="{{ $coupon->description }}"
                                 data-index="1">
@@ -266,11 +260,6 @@
                     <a
                     class='coupon__title_link'
                     title='{{ $coupon->title }}'
-                    onclick="
-{{--                    @if($coupon->offer == 0)--}}
-{{--                    window.location='{{$coupon->link}}'--}}
-{{--                    @endif--}}
-                    "
                     href="{{ route('open_coupon', $coupon) }}"
                     target="_blank">
                         <h3
@@ -309,11 +298,6 @@
                         title='{{ $coupon->title }}'
                         data-coupon-url='{{ $coupon->store?->aff_link }}'
                         href='{{ route("open_coupon", $coupon) }}'
-                        onclick="
-{{--                            @if($coupon->offer)--}}
-{{--                                window.location='{{$coupon->link}}'--}}
-{{--                            @endif--}}
-                        "
                         target='_blank'
                         title="{{ $coupon->description }}"
                         data-index="1">

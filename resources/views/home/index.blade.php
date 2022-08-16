@@ -74,7 +74,6 @@
         <div class="col-lg-12 w-featured__list--33 w-featured__list  " data-widget="featuredCoupons" data-element="WFC">
     
             <div class="row">
-{{--                {{ dd($featured_coupons[0])  }}--}}
                 @foreach($featured_coupons as $coupon)
                 <div class="col-lg-4 col-md-6 col-sm-12">
         

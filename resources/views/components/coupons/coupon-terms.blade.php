@@ -31,8 +31,7 @@
 <div id="{{ $thecoupon->id }}" class="collapse terms-collapse">
     <div class="card-body">
         <div class="coupon-footer-list-container">
-            <div class="cp-desc content column" style="display: block;"> 
-                <!--<strong>{{ $thecoupon->store->name }} {{ $thecoupon->offer ? 'Promo' : 'Coupon' }} Code Details:</strong> -->
+            <div class="cp-desc content column" style="display: block;">
                 <ol>
                     @foreach($thecoupon->couponterms as $term)
                         @if($term->term !== '')

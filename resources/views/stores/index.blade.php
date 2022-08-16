@@ -142,32 +142,7 @@
 
   </div>
 
-  <!--<div class="shops-index shops-index--empty">-->
 
-  <!--  <div class="shops-index__header">-->
-
-  <!--    <h3 class="shops-index__title">More offers added daily, check back for deals from the following shops</h3>-->
-
-  <!--  </div>-->
-
-  <!--  <div class="shops-index__content">-->
-
-      
-  <!--    <ul class="shops-index__list shops-index__list--three-cols shops-index__list--empty">-->
-  <!--        <li class="shops-index__item">-->
-    
-  <!--          <a href="#" title="">-->
-    
-  <!--            Co-op Food-->
-    
-  <!--          </a>-->
-    
-  <!--        </li>-->
-  <!--    </ul>-->
-
-  <!--  </div>-->
-
-  <!--</div>-->
 
       </div>
       <!-- #/content -->

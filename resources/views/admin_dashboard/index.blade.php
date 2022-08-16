@@ -128,38 +128,6 @@
             </div>
 
             <div class="row">
-                <!--<div class="col-12 col-lg-3 col-xl-4 d-flex">-->
-                <!--    <div class="col d-flex">-->
-                <!--        <div class="card radius-10 w-100">-->
-                <!--            <div class="card-header bg-transparent">-->
-                <!--                <div class="d-flex align-items-center">-->
-                <!--                    <div>-->
-                <!--                        <h6 class="mb-0">Top Selling Categories</h6>-->
-                <!--                    </div>-->
-                <!--                </div>-->
-                <!--            </div>-->
-                <!--            <div class="card-body">-->
-                <!--                <div class="chart-container-0">-->
-                <!--                    <canvas id="chart5"></canvas>-->
-                <!--                </div>-->
-                <!--            </div>-->
-                <!--            <div class="row row-group border-top g-0">-->
-                <!--                <div class="col">-->
-                <!--                    <div class="p-3 text-center">-->
-                <!--                        <h4 class="mb-0 text-danger">$45,216</h4>-->
-                <!--                        <p class="mb-0">Clothing</p>-->
-                <!--                    </div>-->
-                <!--                </div>-->
-                <!--                <div class="col">-->
-                <!--                    <div class="p-3 text-center">-->
-                <!--                        <h4 class="mb-0 text-success">$68,154</h4>-->
-                <!--                        <p class="mb-0">Electronic</p>-->
-                <!--                    </div>-->
-                <!--                </div>-->
-                <!--            </div>-->
-                <!--        </div>-->
-                <!--    </div>-->
-                <!--</div>-->
 
                 <div class="col-12 col-lg-6 col-xl-6 d-flex">
                     <div class="col d-flex">

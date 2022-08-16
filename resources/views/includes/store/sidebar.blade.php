@@ -111,23 +111,7 @@
             </p>
 
 
-{{--            @if( strpos($widget->title, "Dove inserire il codice coupon") !== false)--}}
-{{--                <div style="padding:10px">--}}
-{{--                    --}}
-{{--                    <img --}}
-{{--                    src="{{ asset('storage/images/left_sidebar_images/coupon_' . $widget->store->name . '.jpg') }}" --}}
-{{--                    data-src="{{ asset('storage/images/left_sidebar_images/coupon_' . $widget->store->name . '.jpg') }}" --}}
-{{--                    alt="dove inserire il Coupon {{ $widget->store->name }}" --}}
-{{--                    class="img img-responsive" --}}
-{{--                    style="display:block;margin:0 auto;" --}}
-{{--                    title="dove inserire il Coupon {{ $widget->store->name }}">--}}
-{{--                    --}}
-{{--                    <p style="padding-top: 10px;font-size: 13px;font-style: italic;color: #888">--}}
-{{--                        L'immagine mostra il carrello elettronico {{ $widget->store->name }}; la casella dove inserire il codice coupon {{ $widget->store->name }} è evidenziata dal cerchio rosso.--}}
-{{--                    </p>--}}
-{{--                </div>--}}
-{{--            @endif--}}
-            
+
             @endforeach
         </div>
 
@@ -167,26 +151,6 @@
 
         </style>
 
-
-        <!--<div class="widget widget--faq ">-->
-        <!--    <h3>Related Stores</h3>-->
-            
-            <!--<ul class="popular-shops">-->
-                
-                <!--<li class="popular-shops__item d-none d-sm-block">-->
-                <!--    <a href="" title=>-->
-                <!--        <img -->
-                <!--        alt="" -->
-                <!--        title="" -->
-                <!--        class="img-responsive" -->
-                <!--        height="200" -->
-                <!--        width="200" -->
-                <!--        src="?width=200&amp;height=200">-->
-                <!--    </a>-->
-                <!--</li>-->
-                
-        <!--    </ul>-->
-        <!--</div>-->
 
         <div class="widget widget--faq mb-2">
             <h3 class="fw-bold">Related Categories</h3>

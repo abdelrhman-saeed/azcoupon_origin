@@ -1,5 +1,4 @@
-
-  <!-- .m-search-box -->
+ <!-- .m-search-box -->
 
 <div class="m-search-box" role="search" data-area="SE">
 
@@ -45,5 +44,9 @@
   </div>
 
 </div>
-
 <!-- ./m-search-box -->
+  <script>
+    $('#searchForm').submit(function (e) {
+      return false;
+    });
+  </script>

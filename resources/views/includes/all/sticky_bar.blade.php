@@ -1,4 +1,3 @@
-{{--@section('at-the-end-of-the-footer')--}}
 <style>
     .additional_space::after {
         display: block;
@@ -10,7 +9,7 @@
         font-size: small;
     }
 
-    @@media (min-width: 992px) {
+    @media (min-width: 992px) {
         .sticky-bar-title {
             font-size: large;
         }
