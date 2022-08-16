@@ -5,6 +5,17 @@
         content: '';
         height: 100px;
     }
+
+    .sticky-bar-title {
+        font-size: small;
+    }
+
+    @@media (min-width: 992px) {
+        .sticky-bar-title {
+            font-size: large;
+        }
+    }
+
 </style>
 <div class="sticky-bar z-10 bg-dark m-0 p-1  row text-light justify-content-evenly align-items-center position-fixed w-100 bottom-0"
      style="font-size: 1vw; z-index: 1;">
@@ -37,7 +48,7 @@
     </div>
 
     <div class="col-6 col-sm-7 col-md-6  text-uppercase text-center fw-bolder p-0">
-        <h1 class="fw-bold" style="font-size: small;">
+        <h1 class="fw-bold sticky-bar-title">
             {{$super_featured_coupon->title ?: $super_featured_coupon->description}}
         </h1>
     </div>

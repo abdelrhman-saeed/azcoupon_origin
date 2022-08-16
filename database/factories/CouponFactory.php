@@ -22,7 +22,7 @@ class CouponFactory extends Factory
             'description' => $this->faker->sentence(),
             'code' => Str::random(10),
             'discount' => rand(1, 30),
-            'preference' => $this->faker->randomElement( ['%', '€'] ), 
+            'preference' => $this->faker->randomElement( ['%', '$'] ),
             'expire_date' => now()->addDays(40)->toDateString(),
             'link' => $this->faker->url(),
             'featured' => rand(0, 1),

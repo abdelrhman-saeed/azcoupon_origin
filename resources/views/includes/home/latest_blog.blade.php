@@ -36,7 +36,7 @@
 
             <div class="post-excerpt">                
                 <p>
-                    Risparmi oltre 600€ con gli sconti Huawei store estivi. Per rendere ancora più piacevole l’estate 2021 puoi…
+                    Risparmi oltre 600$ con gli sconti Huawei store estivi. Per rendere ancora più piacevole l’estate 2021 puoi…
                 </p>
                 <div class="clear"></div>
             </div>

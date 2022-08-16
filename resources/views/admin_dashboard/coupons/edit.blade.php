@@ -62,7 +62,7 @@
                                                 <label class='form-label'></label>
                                                 <select name='preference' class="single-select form-select select2-hidden-accessible" aria-hidden="true">
                                                     <option {{ $coupon->preference == '%' ? 'selected' : '' }} value='%'>%</option>
-                                                    <option {{ $coupon->preference == '€' ? 'selected' : '' }} value='€'>€</option>
+                                                    <option {{ $coupon->preference == '$' ? 'selected' : '' }} value='$'>$</option>
                                                 </select>
                                             </div>
                                         </div>
