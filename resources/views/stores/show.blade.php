@@ -15,7 +15,7 @@
                 <div class="modal-clickout__info">
 
                     <div class="modal-clickout__logo">
-
+                        <img>
                     </div>
 
                     <div class="modal-clickout__title">
