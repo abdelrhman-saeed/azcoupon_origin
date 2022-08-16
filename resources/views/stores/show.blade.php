@@ -24,7 +24,6 @@
                         </div>
 
                         <h6 class="coupon__title mx-2 h6 fw-bold">
-
                             {{ ! isset($coupon) ?: $coupon->title  }}
                         </h6>
                     </div>
@@ -58,7 +57,6 @@
                        target="_blank"
                        rel="nofollow"
                        data-element="MODB"> Visit {{!isset($coupon) ?: $coupon->store->name}} </a>
-
                 </div>
 
                 <div class="modal-clickout__link-wrp modal-clickout__code-wrp pb-5" style="text-align: left !important;">
@@ -68,6 +66,7 @@
                         <i class="h1 text-success bi bi-whatsapp d-inline-block mr-2"></i>
                         <p class="font-bold d-inline-block">Coupons on Whatsapp</p>
                     </div>
+
                     <form action="{{url('subscribers')}}" method="post" class="subscription_form">
                         @csrf
                         <div class="my-3">
@@ -796,15 +795,12 @@
                     }, 5000);
                }
             })
-
-         })
+        })
 
         $( "#about-store p" ).each(function() {
             if( $( this ).html().trim() == '' && $( this ).text().trim() == '' ) { $(this).remove(); }
         });
     })
-
-    
 </script>
 <script>
     $(".coupon__action button").click(function (e) {
@@ -817,7 +813,5 @@
         $(this).parent().hide(200);
         $('body').removeClass('additional_space');
     });
-
-
 </script>
 @endsection

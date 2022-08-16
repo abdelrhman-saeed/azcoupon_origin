@@ -458,6 +458,23 @@
                 }, 1e3));
         });
     });
+
+    // preventing Tap
+    document.onkeydown = function(evt) {
+        evt = evt || window.event;
+        if (evt.keyCode == 9) {
+            evt.preventDefault();
+        }
+    };
+
+    // preventing Enter Key
+    document.addEventListener('keypress', function (e) {
+        if (e.keyCode === 13 || e.which === 13) {
+            e.preventDefault();
+            return false;
+        }
+    });
+
 </script>
 
 @yield('end_script')
