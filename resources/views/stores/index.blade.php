@@ -1,7 +1,7 @@
 @extends('layouts.front.master')
   
-@section('title', 'All Stores | Top Discounts | GlamPromoCodes')
-@section('seo_title', 'All Categories | Top Discounts | GlamPromoCodes | Glam')
+@section('title', 'All Stores | Top Discounts | mycoupons.hkPromoCodes')
+@section('seo_title', 'All Categories | Top Discounts | mycoupons.hkPromoCodes | mycoupons.hk')
 
 @section('canonical')
     <link rel="canonical" href="{{ route('stores.index') }}">
@@ -20,7 +20,7 @@
             "logo": "{{ asset('assets/images/icons/logo-svg.svg') }}",
             "Provider": {
                 "@type": "Organization",
-                "name": "Glam Promo Codes",
+                "name": "mycoupons.hk Promo Codes",
                 "logo": {
                     "@type": "ImageObject",
                     "contentUrl": "LOGO"

@@ -13,7 +13,7 @@
 
                 <a class="d-flex align-items-center nav-link dropdown-toggle dropdown-toggle-nocaret" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                     <img 
-                    src="{{ auth()->user()->avatar == "" || strlen(auth()->user()->avatar) == 0 ? asset("admin_assets/images/avatars/avatar.png") : asset( "../glam_core/storage/app/public/" . auth()->user()->avatar) }}"
+                    src="{{ auth()->user()->avatar == "" || strlen(auth()->user()->avatar) == 0 ? asset("admin_assets/images/avatars/avatar.png") : asset( "../mycoupons.hk_core/storage/app/public/" . auth()->user()->avatar) }}"
                     class="user-img" 
                     alt="user avatar">
                     

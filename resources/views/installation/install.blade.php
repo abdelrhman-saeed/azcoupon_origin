@@ -16,7 +16,7 @@
 	    
 		<link href="admin_assets/css/app.css" rel="stylesheet">
 		<link href="admin_assets/css/icons.css" rel="stylesheet">
-		<title>Glam | Installation</title>
+		<title>mycoupons.hk | Installation</title>
 	</head>
 
     <body class="bg-login">

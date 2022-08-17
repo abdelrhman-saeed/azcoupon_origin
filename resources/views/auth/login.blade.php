@@ -15,7 +15,7 @@
 	<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap" rel="stylesheet">
 		<link href="admin_assets/css/app.css" rel="stylesheet">
 		<link href="admin_assets/css/icons.css" rel="stylesheet">
-		<title>GLAM | Admin Login</title>
+		<title>mycoupons.hk | Admin Login</title>
 	</head>
 
     <body class="bg-login">
@@ -26,7 +26,7 @@
                     <div class="row row-cols-1 row-cols-lg-2 row-cols-xl-3">
                         <div class="col mx-auto">
                             <div class="mb-4 text-center">
-                                <img src="{{ asset('assets/images/glam_1.svg') }} " width="180" alt="" />
+                                <img src="{{ asset('assets/images/mycoupons.hk_1.svg') }} " width="180" alt="" />
                             </div>
                             <div class="card">
                                 <div class="card-body">

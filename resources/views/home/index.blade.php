@@ -12,7 +12,7 @@
 
             "Provider": {
                 "@type": "Organization",
-                "name": "Glam Promo Codes",
+                "name": "mycoupons.hk Promo Codes",
                 "logo": {
                     "@type": "ImageObject",
                     "contentUrl": "LOGO"
@@ -67,7 +67,7 @@
     <div class="row">
         
         <div class="col-lg-12 text-center">
-            <h2>The Best Verified Glam Promo Codes </h2>
+            <h2>The Best Verified mycoupons.hk Promo Codes </h2>
            
         </div>
         

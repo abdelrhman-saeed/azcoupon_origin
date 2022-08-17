@@ -1,8 +1,8 @@
 @extends('layouts.front.master')
  
 
-@section('title', 'All Categories | Top Discounts | GlamPromoCodes')
-@section('seo_title', 'All Categories | Top Discounts | GlamPromoCodes | Glam')
+@section('title', 'All Categories | Top Discounts | mycoupons.hkPromoCodes')
+@section('seo_title', 'All Categories | Top Discounts | mycoupons.hkPromoCodes | mycoupons.hk')
 
 @section('canonical')
     <link rel="canonical" href="{{ route('categories.index') }}">
@@ -21,7 +21,7 @@
             "logo": "{{ asset('assets/images/icons/logo-svg.svg') }}",
             "Provider": {
                 "@type": "Organization",
-                "name": "Glam Promo Codes",
+                "name": "mycoupons.hk Promo Codes",
                 "logo": {
                     "@type": "ImageObject",
                     "contentUrl": "LOGO"
@@ -95,7 +95,7 @@
 
               <i class="icon-info categories__seo-icon"></i>
         
-              <p>At the Glam you can search through a number of categories including: fashion, kids, health and beauty, sport and fitness, home and living, technology and travel. There are many products that can be bought at discounted prices.</p>
+              <p>At the mycoupons.hk you can search through a number of categories including: fashion, kids, health and beauty, sport and fitness, home and living, technology and travel. There are many products that can be bought at discounted prices.</p>
         
             </div>
           </div>

@@ -7,7 +7,7 @@
             class="logo-icon">
         </div>
         <div>
-            <h4 class="logo-text">GLAM</h4>
+            <h4 class="logo-text">mycoupons.hk</h4>
         </div>
         <div class="toggle-icon ms-auto">
             <i class='bx bx-arrow-to-left'></i>

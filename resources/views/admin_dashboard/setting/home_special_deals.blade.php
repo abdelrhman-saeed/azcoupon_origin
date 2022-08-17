@@ -98,7 +98,7 @@
                                                     </div>
                                                     @if($home_special_deals?->deal_2_thumbnail)
                                                         <div class='col-md-4 text-center'>
-                                                            <img width='200' src="{{ asset('../glam_core/storage/app/public/' . $home_special_deals?->deal_2_thumbnail) }}" alt="">
+                                                            <img width='200' src="{{ asset('../mycoupons.hk_core/storage/app/public/' . $home_special_deals?->deal_2_thumbnail) }}" alt="">
                                                         </div>
                                                     @endif
                                                 </div>
@@ -121,7 +121,7 @@
                                                     </div>
                                                     @if($home_special_deals?->deal_3_thumbnail)
                                                         <div class='col-md-4 text-center'>
-                                                            <img width='200' src="{{ asset('../glam_core/storage/app/public/' . $home_special_deals?->deal_3_thumbnail) }}" alt="">
+                                                            <img width='200' src="{{ asset('../mycoupons.hk_core/storage/app/public/' . $home_special_deals?->deal_3_thumbnail) }}" alt="">
                                                         </div>
                                                     @endif
                                                 </div>

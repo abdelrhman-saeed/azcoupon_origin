@@ -1,12 +1,12 @@
 
 
-<div class="t-header" data-its-me="75" role="complementary" aria-label="Glam Header">
+<div class="t-header" data-its-me="75" role="complementary" aria-label="mycoupons.hk Header">
     <div class="t-topbar">
       <div class="container">
         <div class="row">
-          <a class="t-topbar__link" href="https://www.glam.co.uk/vouchercodes">
+          <a class="t-topbar__link" href="https://www.mycoupons.hk.co.uk/vouchercodes">
             <div class="t-topbar__desktop"><svg width="359" height="33" viewBox="0 0 359 33" fill="none" xmlns="http://www.w3.org/2000/svg">
-              <title>glam Voucher Codes</title>
+              <title>mycoupons.hk Voucher Codes</title>
               <path d="M8.87134 10.4143H9.00678L11.6027 3.45C11.7081 3.15 11.7908 2.89286 11.851 2.67857C11.9263 2.45 11.9639 2.21429 11.9639 1.97143C11.9639 1.68571 11.9037 1.46429 11.7833 1.30714C11.6629 1.13571 11.4974 1.00714 11.2867 0.921428C11.1663 0.892857 11.0158 0.864286 10.8352 0.835715C10.6697 0.792858 10.4966 0.764286 10.316 0.750001V0.3H14.921V0.750001C14.7404 0.778572 14.5674 0.814286 14.4018 0.857143C14.2513 0.885714 14.1008 0.942857 13.9504 1.02857C13.83 1.11429 13.702 1.21429 13.5666 1.32857C13.4312 1.44286 13.2957 1.59286 13.1603 1.77857C13.0399 1.97857 12.9045 2.24286 12.754 2.57143C12.6035 2.9 12.453 3.26429 12.3025 3.66429L8.0587 14.8071H6.83974L2.88939 4.17857C2.67871 3.57857 2.49812 3.10714 2.34763 2.76429C2.19714 2.42143 2.0316 2.12857 1.85102 1.88571C1.68548 1.64286 1.51994 1.45714 1.3544 1.32857C1.20391 1.2 1.02333 1.08571 0.812642 0.985714C0.55681 0.871428 0.28593 0.792857 0 0.750001V0.3H7.83296V0.750001C7.62228 0.778572 7.43417 0.807143 7.26863 0.835715C7.11814 0.85 6.97518 0.892858 6.83974 0.964286C6.6441 1.03571 6.47104 1.14286 6.32055 1.28571C6.17006 1.42857 6.09481 1.64286 6.09481 1.92857C6.09481 2.2 6.13996 2.48571 6.23025 2.78571C6.32055 3.07143 6.41837 3.35714 6.52371 3.64286L8.87134 10.4143Z" fill="black"></path>
               <path d="M25.7185 0.0214283C26.7719 0.0214283 27.7576 0.207143 28.6756 0.578572C29.6086 0.935714 30.4138 1.44286 31.091 2.1C31.7682 2.75714 32.3024 3.55 32.6937 4.47857C33.0849 5.39286 33.2806 6.40714 33.2806 7.52143C33.2806 8.63571 33.0849 9.65 32.6937 10.5643C32.3024 11.4786 31.7682 12.2643 31.091 12.9214C30.4138 13.5786 29.6086 14.0929 28.6756 14.4643C27.7576 14.8214 26.7719 15 25.7185 15C24.65 15 23.6568 14.8214 22.7388 14.4643C21.8208 14.0929 21.0232 13.5786 20.346 12.9214C19.6688 12.2643 19.1346 11.4786 18.7433 10.5643C18.3671 9.65 18.179 8.63571 18.179 7.52143C18.179 6.40714 18.3671 5.39286 18.7433 4.47857C19.1346 3.55 19.6688 2.75714 20.346 2.1C21.0232 1.44286 21.8208 0.935714 22.7388 0.578572C23.6568 0.207143 24.65 0.0214283 25.7185 0.0214283ZM25.7185 14.4C26.5913 14.4 27.3212 14.1429 27.9081 13.6286C28.1338 13.4429 28.3445 13.1929 28.5402 12.8786C28.7509 12.5643 28.9314 12.1643 29.0819 11.6786C29.2324 11.1929 29.3453 10.6143 29.4205 9.94286C29.5108 9.25714 29.556 8.45 29.556 7.52143C29.556 6.60714 29.5108 5.81429 29.4205 5.14286C29.3453 4.45714 29.2324 3.87143 29.0819 3.38571C28.9314 2.9 28.7584 2.5 28.5627 2.18571C28.3671 1.87143 28.1489 1.60714 27.9081 1.39286C27.6071 1.15 27.2836 0.964286 26.9375 0.835715C26.5913 0.707143 26.185 0.642858 25.7185 0.642858C24.8306 0.642858 24.0932 0.9 23.5063 1.41429C23.2806 1.61429 23.0624 1.87143 22.8517 2.18571C22.656 2.5 22.483 2.9 22.3325 3.38571C22.182 3.87143 22.0616 4.45 21.9713 5.12143C21.8961 5.79286 21.8584 6.59286 21.8584 7.52143C21.8584 8.45 21.8961 9.25 21.9713 9.92143C22.0616 10.5929 22.182 11.1714 22.3325 11.6571C22.483 12.1286 22.656 12.5214 22.8517 12.8357C23.0624 13.15 23.2881 13.4143 23.5289 13.6286C23.8299 13.9 24.1534 14.1 24.4995 14.2286C24.8457 14.3429 25.252 14.4 25.7185 14.4Z" fill="black"></path>
               <path d="M51.5042 9.85714C51.5042 10.5571 51.459 11.1714 51.3687 11.7C51.2935 12.2286 51.1054 12.7143 50.8044 13.1571C50.4583 13.7 49.8789 14.1429 49.0663 14.4857C48.2687 14.8286 47.2378 15 45.9737 15C45.3567 15 44.7698 14.9571 44.213 14.8714C43.6562 14.7857 43.137 14.65 42.6554 14.4643C42.1889 14.2786 41.7675 14.0357 41.3913 13.7357C41.0151 13.4357 40.7066 13.0643 40.4658 12.6214C40.2551 12.2071 40.0971 11.7071 39.9918 11.1214C39.9015 10.5357 39.8563 9.95 39.8563 9.36429V3.68571C39.8563 3.11429 39.8413 2.67143 39.8112 2.35714C39.7811 2.04286 39.7133 1.77857 39.608 1.56429C39.5177 1.36429 39.4048 1.22143 39.2694 1.13571C39.149 1.03571 38.9985 0.95 38.8179 0.878572C38.7126 0.85 38.5847 0.828572 38.4342 0.814285C38.2987 0.785714 38.1483 0.764286 37.9827 0.750001V0.3H45.2288V0.750001C44.8827 0.778572 44.6193 0.828571 44.4387 0.9C44.2431 0.971428 44.0775 1.05714 43.9421 1.15714C43.8067 1.25714 43.6863 1.4 43.5809 1.58571C43.4756 1.78571 43.4003 2.05714 43.3552 2.4C43.3251 2.72857 43.31 3.15 43.31 3.66429V10.2214C43.31 11.0643 43.4229 11.7929 43.6486 12.4071C43.8744 13.0643 44.2581 13.5286 44.7999 13.8C45.3567 14.0571 46.0414 14.1857 46.8541 14.1857C47.7118 14.1857 48.4116 14.0643 48.9534 13.8214C49.5102 13.5786 49.9391 13.2143 50.2401 12.7286C50.5862 12.1714 50.7593 11.2214 50.7593 9.87857V3.62143C50.7593 3.05 50.7216 2.61429 50.6464 2.31429C50.5711 2 50.4658 1.74286 50.3304 1.54286C50.1949 1.34286 50.052 1.2 49.9015 1.11429C49.766 1.02857 49.593 0.95 49.3823 0.878572C49.1264 0.792858 48.848 0.742857 48.5471 0.728571V0.3H53.5809V0.728571C53.4154 0.742857 53.2799 0.764286 53.1746 0.792857C53.0843 0.807143 52.979 0.828571 52.8586 0.857143C52.6328 0.928572 52.4523 1.02143 52.3168 1.13571C52.1814 1.23571 52.0459 1.38571 51.9105 1.58571C51.7751 1.78571 51.6697 2.03571 51.5945 2.33571C51.5343 2.62143 51.5042 3.05 51.5042 3.62143V9.85714Z" fill="black"></path>
@@ -47,7 +47,7 @@
             </div>
             <div class="t-topbar__mobile">
               <svg width="221" height="48" viewBox="0 0 221 48" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <title>Glam promo Codes</title>
+                <title>mycoupons.hk promo Codes</title>
                 <path d="M8.87134 10.4143H9.00678L11.6027 3.45C11.7081 3.15 11.7908 2.89286 11.851 2.67857C11.9263 2.45 11.9639 2.21429 11.9639 1.97143C11.9639 1.68571 11.9037 1.46429 11.7833 1.30714C11.6629 1.13571 11.4974 1.00714 11.2867 0.921428C11.1663 0.892857 11.0158 0.864286 10.8352 0.835715C10.6697 0.792858 10.4966 0.764286 10.316 0.750001V0.3H14.921V0.750001C14.7404 0.778572 14.5674 0.814286 14.4018 0.857143C14.2513 0.885714 14.1008 0.942857 13.9504 1.02857C13.83 1.11429 13.702 1.21429 13.5666 1.32857C13.4312 1.44286 13.2957 1.59286 13.1603 1.77857C13.0399 1.97857 12.9045 2.24286 12.754 2.57143C12.6035 2.9 12.453 3.26429 12.3025 3.66429L8.0587 14.8071H6.83974L2.88939 4.17857C2.67871 3.57857 2.49812 3.10714 2.34763 2.76429C2.19714 2.42143 2.0316 2.12857 1.85102 1.88571C1.68548 1.64286 1.51994 1.45714 1.3544 1.32857C1.20391 1.2 1.02333 1.08571 0.812642 0.985714C0.55681 0.871428 0.28593 0.792857 0 0.750001V0.3H7.83296V0.750001C7.62228 0.778572 7.43417 0.807143 7.26863 0.835715C7.11814 0.85 6.97518 0.892858 6.83974 0.964286C6.6441 1.03571 6.47104 1.14286 6.32055 1.28571C6.17006 1.42857 6.09481 1.64286 6.09481 1.92857C6.09481 2.2 6.13996 2.48571 6.23025 2.78571C6.32055 3.07143 6.41837 3.35714 6.52371 3.64286L8.87134 10.4143Z" fill="black"></path>
                 <path d="M25.7185 0.0214283C26.7719 0.0214283 27.7576 0.207143 28.6756 0.578572C29.6086 0.935714 30.4138 1.44286 31.091 2.1C31.7682 2.75714 32.3024 3.55 32.6937 4.47857C33.0849 5.39286 33.2806 6.40714 33.2806 7.52143C33.2806 8.63571 33.0849 9.65 32.6937 10.5643C32.3024 11.4786 31.7682 12.2643 31.091 12.9214C30.4138 13.5786 29.6086 14.0929 28.6756 14.4643C27.7576 14.8214 26.7719 15 25.7185 15C24.65 15 23.6568 14.8214 22.7388 14.4643C21.8208 14.0929 21.0232 13.5786 20.346 12.9214C19.6688 12.2643 19.1346 11.4786 18.7433 10.5643C18.3671 9.65 18.179 8.63571 18.179 7.52143C18.179 6.40714 18.3671 5.39286 18.7433 4.47857C19.1346 3.55 19.6688 2.75714 20.346 2.1C21.0232 1.44286 21.8208 0.935714 22.7388 0.578572C23.6568 0.207143 24.65 0.0214283 25.7185 0.0214283ZM25.7185 14.4C26.5913 14.4 27.3212 14.1429 27.9081 13.6286C28.1338 13.4429 28.3445 13.1929 28.5402 12.8786C28.7509 12.5643 28.9314 12.1643 29.0819 11.6786C29.2324 11.1929 29.3453 10.6143 29.4205 9.94286C29.5108 9.25714 29.556 8.45 29.556 7.52143C29.556 6.60714 29.5108 5.81429 29.4205 5.14286C29.3453 4.45714 29.2324 3.87143 29.0819 3.38571C28.9314 2.9 28.7584 2.5 28.5627 2.18571C28.3671 1.87143 28.1489 1.60714 27.9081 1.39286C27.6071 1.15 27.2836 0.964286 26.9375 0.835715C26.5913 0.707143 26.185 0.642858 25.7185 0.642858C24.8306 0.642858 24.0932 0.9 23.5063 1.41429C23.2806 1.61429 23.0624 1.87143 22.8517 2.18571C22.656 2.5 22.483 2.9 22.3325 3.38571C22.182 3.87143 22.0616 4.45 21.9713 5.12143C21.8961 5.79286 21.8584 6.59286 21.8584 7.52143C21.8584 8.45 21.8961 9.25 21.9713 9.92143C22.0616 10.5929 22.182 11.1714 22.3325 11.6571C22.483 12.1286 22.656 12.5214 22.8517 12.8357C23.0624 13.15 23.2881 13.4143 23.5289 13.6286C23.8299 13.9 24.1534 14.1 24.4995 14.2286C24.8457 14.3429 25.252 14.4 25.7185 14.4Z" fill="black"></path>
                 <path d="M51.5042 9.85714C51.5042 10.5571 51.459 11.1714 51.3687 11.7C51.2935 12.2286 51.1054 12.7143 50.8044 13.1571C50.4583 13.7 49.8789 14.1429 49.0663 14.4857C48.2687 14.8286 47.2378 15 45.9737 15C45.3567 15 44.7698 14.9571 44.213 14.8714C43.6562 14.7857 43.137 14.65 42.6554 14.4643C42.1889 14.2786 41.7675 14.0357 41.3913 13.7357C41.0151 13.4357 40.7066 13.0643 40.4658 12.6214C40.2551 12.2071 40.0971 11.7071 39.9918 11.1214C39.9015 10.5357 39.8563 9.95 39.8563 9.36429V3.68571C39.8563 3.11429 39.8413 2.67143 39.8112 2.35714C39.7811 2.04286 39.7133 1.77857 39.608 1.56429C39.5177 1.36429 39.4048 1.22143 39.2694 1.13571C39.149 1.03571 38.9985 0.95 38.8179 0.878572C38.7126 0.85 38.5847 0.828572 38.4342 0.814285C38.2987 0.785714 38.1483 0.764286 37.9827 0.750001V0.3H45.2288V0.750001C44.8827 0.778572 44.6193 0.828571 44.4387 0.9C44.2431 0.971428 44.0775 1.05714 43.9421 1.15714C43.8067 1.25714 43.6863 1.4 43.5809 1.58571C43.4756 1.78571 43.4003 2.05714 43.3552 2.4C43.3251 2.72857 43.31 3.15 43.31 3.66429V10.2214C43.31 11.0643 43.4229 11.7929 43.6486 12.4071C43.8744 13.0643 44.2581 13.5286 44.7999 13.8C45.3567 14.0571 46.0414 14.1857 46.8541 14.1857C47.7118 14.1857 48.4116 14.0643 48.9534 13.8214C49.5102 13.5786 49.9391 13.2143 50.2401 12.7286C50.5862 12.1714 50.7593 11.2214 50.7593 9.87857V3.62143C50.7593 3.05 50.7216 2.61429 50.6464 2.31429C50.5711 2 50.4658 1.74286 50.3304 1.54286C50.1949 1.34286 50.052 1.2 49.9015 1.11429C49.766 1.02857 49.593 0.95 49.3823 0.878572C49.1264 0.792858 48.848 0.742857 48.5471 0.728571V0.3H53.5809V0.728571C53.4154 0.742857 53.2799 0.764286 53.1746 0.792857C53.0843 0.807143 52.979 0.828571 52.8586 0.857143C52.6328 0.928572 52.4523 1.02143 52.3168 1.13571C52.1814 1.23571 52.0459 1.38571 51.9105 1.58571C51.7751 1.78571 51.6697 2.03571 51.5945 2.33571C51.5343 2.62143 51.5042 3.05 51.5042 3.62143V9.85714Z" fill="black"></path>
@@ -116,7 +116,7 @@
           <li class="m-navigation__item has-sub-menu ">
 
 
-            <a class="m-navigation__link" href="https://www.glam.co.uk/vouchercodes/stores" tabindex="0">
+            <a class="m-navigation__link" href="https://www.mycoupons.hk.co.uk/vouchercodes/stores" tabindex="0">
 
               Popular brands
 
@@ -142,7 +142,7 @@
                     <li class="sub-menu__item">
 
 
-                      <a class="sub-menu__link" tabindex="0" href="https://www.glam.co.uk/vouchercodes/audible">Audible</a>
+                      <a class="sub-menu__link" tabindex="0" href="https://www.mycoupons.hk.co.uk/vouchercodes/audible">Audible</a>
 
 
                     </li>
@@ -151,7 +151,7 @@
                     <li class="sub-menu__item">
 
 
-                      <a class="sub-menu__link" tabindex="0" href="https://www.glam.co.uk/vouchercodes/blacks">Blacks</a>
+                      <a class="sub-menu__link" tabindex="0" href="https://www.mycoupons.hk.co.uk/vouchercodes/blacks">Blacks</a>
 
 
                     </li>
@@ -160,7 +160,7 @@
                     <li class="sub-menu__item">
 
 
-                      <a class="sub-menu__link" tabindex="0" href="https://www.glam.co.uk/vouchercodes/cath-kidston">Cath Kidston</a>
+                      <a class="sub-menu__link" tabindex="0" href="https://www.mycoupons.hk.co.uk/vouchercodes/cath-kidston">Cath Kidston</a>
 
 
                     </li>
@@ -169,7 +169,7 @@
                     <li class="sub-menu__item">
 
 
-                      <a class="sub-menu__link" tabindex="0" href="https://www.glam.co.uk/vouchercodes/debenhams">Debenhams</a>
+                      <a class="sub-menu__link" tabindex="0" href="https://www.mycoupons.hk.co.uk/vouchercodes/debenhams">Debenhams</a>
 
 
                     </li>
@@ -178,7 +178,7 @@
                     <li class="sub-menu__item">
 
 
-                      <a class="sub-menu__link" tabindex="0" href="https://www.glam.co.uk/vouchercodes/dunelm">Dunelm</a>
+                      <a class="sub-menu__link" tabindex="0" href="https://www.mycoupons.hk.co.uk/vouchercodes/dunelm">Dunelm</a>
 
 
                     </li>
@@ -187,7 +187,7 @@
                     <li class="sub-menu__item">
 
 
-                      <a class="sub-menu__link" tabindex="0" href="https://www.glam.co.uk/vouchercodes/eharmony">eharmony</a>
+                      <a class="sub-menu__link" tabindex="0" href="https://www.mycoupons.hk.co.uk/vouchercodes/eharmony">eharmony</a>
 
 
                     </li>
@@ -196,7 +196,7 @@
                     <li class="sub-menu__item">
 
 
-                      <a class="sub-menu__link" tabindex="0" href="https://www.glam.co.uk/vouchercodes/eve-sleep">Eve Sleep</a>
+                      <a class="sub-menu__link" tabindex="0" href="https://www.mycoupons.hk.co.uk/vouchercodes/eve-sleep">Eve Sleep</a>
 
 
                     </li>
@@ -205,7 +205,7 @@
                     <li class="sub-menu__item">
 
 
-                      <a class="sub-menu__link" tabindex="0" href="https://www.glam.co.uk/vouchercodes/garden-trading">Garden Trading</a>
+                      <a class="sub-menu__link" tabindex="0" href="https://www.mycoupons.hk.co.uk/vouchercodes/garden-trading">Garden Trading</a>
 
 
                     </li>
@@ -214,7 +214,7 @@
                     <li class="sub-menu__item">
 
 
-                      <a class="sub-menu__link" tabindex="0" href="https://www.glam.co.uk/vouchercodes/john-greed-jewellery">John Greed</a>
+                      <a class="sub-menu__link" tabindex="0" href="https://www.mycoupons.hk.co.uk/vouchercodes/john-greed-jewellery">John Greed</a>
 
 
                     </li>
@@ -223,7 +223,7 @@
                     <li class="sub-menu__item">
 
 
-                      <a class="sub-menu__link" tabindex="0" href="https://www.glam.co.uk/vouchercodes/lilys-kitchen">Lily's Kitchen</a>
+                      <a class="sub-menu__link" tabindex="0" href="https://www.mycoupons.hk.co.uk/vouchercodes/lilys-kitchen">Lily's Kitchen</a>
 
 
                     </li>
@@ -232,7 +232,7 @@
                     <li class="sub-menu__item">
 
 
-                      <a class="sub-menu__link" tabindex="0" href="https://www.glam.co.uk/vouchercodes/made">MADE</a>
+                      <a class="sub-menu__link" tabindex="0" href="https://www.mycoupons.hk.co.uk/vouchercodes/made">MADE</a>
 
 
                     </li>
@@ -241,7 +241,7 @@
                     <li class="sub-menu__item">
 
 
-                      <a class="sub-menu__link" tabindex="0" href="https://www.glam.co.uk/vouchercodes/scotts">Scotts</a>
+                      <a class="sub-menu__link" tabindex="0" href="https://www.mycoupons.hk.co.uk/vouchercodes/scotts">Scotts</a>
 
 
                     </li>
@@ -250,7 +250,7 @@
                     <li class="sub-menu__item">
 
 
-                      <a class="sub-menu__link" tabindex="0" href="https://www.glam.co.uk/vouchercodes/tessuti">Tessuti</a>
+                      <a class="sub-menu__link" tabindex="0" href="https://www.mycoupons.hk.co.uk/vouchercodes/tessuti">Tessuti</a>
 
 
                     </li>
@@ -259,7 +259,7 @@
                     <li class="sub-menu__item">
 
 
-                      <a class="sub-menu__link" tabindex="0" href="https://www.glam.co.uk/vouchercodes/vodafone">Vodafone</a>
+                      <a class="sub-menu__link" tabindex="0" href="https://www.mycoupons.hk.co.uk/vouchercodes/vodafone">Vodafone</a>
 
 
                     </li>
@@ -268,7 +268,7 @@
                     <li class="sub-menu__item">
 
 
-                      <a class="sub-menu__link" tabindex="0" href="https://www.glam.co.uk/vouchercodes/zavvi">Zavvi</a>
+                      <a class="sub-menu__link" tabindex="0" href="https://www.mycoupons.hk.co.uk/vouchercodes/zavvi">Zavvi</a>
 
 
                     </li>
@@ -276,7 +276,7 @@
 
                   <li class="sub-menu__item sub-menu__item--see-all">
 
-                    <a class="sub-menu__link" href="https://www.glam.co.uk/vouchercodes/stores">
+                    <a class="sub-menu__link" href="https://www.mycoupons.hk.co.uk/vouchercodes/stores">
 
                       See all stores
 
@@ -300,7 +300,7 @@
             <li class="m-navigation__item m-navigation__item--top-coupons  ">
 
 
-              <a class="m-navigation__link" href="https://www.glam.co.uk/vouchercodes/best-coupons-and-deals">Top vouchers</a>
+              <a class="m-navigation__link" href="https://www.mycoupons.hk.co.uk/vouchercodes/best-coupons-and-deals">Top vouchers</a>
 
 
             </li>
@@ -315,7 +315,7 @@
 
 
 
-              <a class="m-navigation__link" href="https://www.glam.co.uk/vouchercodes/categories">
+              <a class="m-navigation__link" href="https://www.mycoupons.hk.co.uk/vouchercodes/categories">
 
                 <span>View categories</span>
 
@@ -342,7 +342,7 @@
                       <li class="sub-menu__item">
 
 
-                        <a class="sub-menu__link" href="https://www.glam.co.uk/vouchercodes/categories/holidays">Holidays</a>
+                        <a class="sub-menu__link" href="https://www.mycoupons.hk.co.uk/vouchercodes/categories/holidays">Holidays</a>
 
 
                       </li>
@@ -351,7 +351,7 @@
                       <li class="sub-menu__item">
 
 
-                        <a class="sub-menu__link" href="https://www.glam.co.uk/vouchercodes/categories/clothing">Clothing &amp; Accessories</a>
+                        <a class="sub-menu__link" href="https://www.mycoupons.hk.co.uk/vouchercodes/categories/clothing">Clothing &amp; Accessories</a>
 
 
                       </li>
@@ -360,7 +360,7 @@
                       <li class="sub-menu__item">
 
 
-                        <a class="sub-menu__link" href="https://www.glam.co.uk/vouchercodes/categories/home">Home Furniture</a>
+                        <a class="sub-menu__link" href="https://www.mycoupons.hk.co.uk/vouchercodes/categories/home">Home Furniture</a>
 
 
                       </li>
@@ -369,7 +369,7 @@
                       <li class="sub-menu__item">
 
 
-                        <a class="sub-menu__link" href="https://www.glam.co.uk/vouchercodes/categories/sport">Fitness &amp; Sports</a>
+                        <a class="sub-menu__link" href="https://www.mycoupons.hk.co.uk/vouchercodes/categories/sport">Fitness &amp; Sports</a>
 
 
                       </li>
@@ -377,7 +377,7 @@
 
                     <li class="sub-menu__item">
 
-                      <a class="sub-menu__link" href="https://www.glam.co.uk/vouchercodes/categories">
+                      <a class="sub-menu__link" href="https://www.mycoupons.hk.co.uk/vouchercodes/categories">
 
                         All categories
 
@@ -429,7 +429,7 @@
                       <li class="sub-menu__item">
 
 
-                        <a class="sub-menu__link" href="https://www.glam.co.uk/vouchercodes/samsung/samsung-tv-offers">Samsung TV Offers</a>
+                        <a class="sub-menu__link" href="https://www.mycoupons.hk.co.uk/vouchercodes/samsung/samsung-tv-offers">Samsung TV Offers</a>
 
 
                       </li>
@@ -438,7 +438,7 @@
                       <li class="sub-menu__item">
 
 
-                        <a class="sub-menu__link" href="https://www.glam.co.uk/vouchercodes/offers/sale">Spring Sale 2022</a>
+                        <a class="sub-menu__link" href="https://www.mycoupons.hk.co.uk/vouchercodes/offers/sale">Spring Sale 2022</a>
 
 
                       </li>
@@ -520,7 +520,7 @@
 
               <div class="result-media">
 
-                <img srcset="https://www.glam.co.uk/vouchercodes/static/shop/24941/logo/Asos_Logo.png?width=100&amp;height=100 1x, https://www.glam.co.uk/vouchercodes/static/shop/24941/logo/Asos_Logo.png?width=200&amp;height=200&amp;quality=60 2x" alt="ASOS" class="img-responsive" height="100" width="100" src="https://www.glam.co.uk/vouchercodes/static/shop/24941/logo/Asos_Logo.png?width=100&amp;height=100">
+                <img srcset="https://www.mycoupons.hk.co.uk/vouchercodes/static/shop/24941/logo/Asos_Logo.png?width=100&amp;height=100 1x, https://www.mycoupons.hk.co.uk/vouchercodes/static/shop/24941/logo/Asos_Logo.png?width=200&amp;height=200&amp;quality=60 2x" alt="ASOS" class="img-responsive" height="100" width="100" src="https://www.mycoupons.hk.co.uk/vouchercodes/static/shop/24941/logo/Asos_Logo.png?width=100&amp;height=100">
 
               </div>
 
@@ -555,7 +555,7 @@
 
               <div class="result-media">
 
-                <img srcset="https://www.glam.co.uk/vouchercodes/static/shop/33491/logo/aspinal_of_london_discount_codes.png?width=100&amp;height=100 1x, https://www.glam.co.uk/vouchercodes/static/shop/33491/logo/aspinal_of_london_discount_codes.png?width=200&amp;height=200&amp;quality=60 2x" alt="Aspinal of London" class="img-responsive" height="100" width="100" src="https://www.glam.co.uk/vouchercodes/static/shop/33491/logo/aspinal_of_london_discount_codes.png?width=100&amp;height=100">
+                <img srcset="https://www.mycoupons.hk.co.uk/vouchercodes/static/shop/33491/logo/aspinal_of_london_discount_codes.png?width=100&amp;height=100 1x, https://www.mycoupons.hk.co.uk/vouchercodes/static/shop/33491/logo/aspinal_of_london_discount_codes.png?width=200&amp;height=200&amp;quality=60 2x" alt="Aspinal of London" class="img-responsive" height="100" width="100" src="https://www.mycoupons.hk.co.uk/vouchercodes/static/shop/33491/logo/aspinal_of_london_discount_codes.png?width=100&amp;height=100">
 
               </div>
 
@@ -590,7 +590,7 @@
 
               <div class="result-media">
 
-                <img srcset="https://www.glam.co.uk/vouchercodes/static/shop/26028/logo/_0151_asics-promo-code.png?width=100&amp;height=100 1x, https://www.glam.co.uk/vouchercodes/static/shop/26028/logo/_0151_asics-promo-code.png?width=200&amp;height=200&amp;quality=60 2x" alt="ASICS" class="img-responsive" height="100" width="100" src="https://www.glam.co.uk/vouchercodes/static/shop/26028/logo/_0151_asics-promo-code.png?width=100&amp;height=100">
+                <img srcset="https://www.mycoupons.hk.co.uk/vouchercodes/static/shop/26028/logo/_0151_asics-promo-code.png?width=100&amp;height=100 1x, https://www.mycoupons.hk.co.uk/vouchercodes/static/shop/26028/logo/_0151_asics-promo-code.png?width=200&amp;height=200&amp;quality=60 2x" alt="ASICS" class="img-responsive" height="100" width="100" src="https://www.mycoupons.hk.co.uk/vouchercodes/static/shop/26028/logo/_0151_asics-promo-code.png?width=100&amp;height=100">
 
               </div>
 
@@ -625,7 +625,7 @@
 
               <div class="result-media">
 
-                <img srcset="https://www.glam.co.uk/vouchercodes/static/shop/33753/logo/Jo_Malone_Discount_Code.jpg?width=100&amp;height=100 1x, https://www.glam.co.uk/vouchercodes/static/shop/33753/logo/Jo_Malone_Discount_Code.jpg?width=200&amp;height=200&amp;quality=60 2x" alt="Jo Malone" class="img-responsive" height="100" width="100" src="https://www.glam.co.uk/vouchercodes/static/shop/33753/logo/Jo_Malone_Discount_Code.jpg?width=100&amp;height=100">
+                <img srcset="https://www.mycoupons.hk.co.uk/vouchercodes/static/shop/33753/logo/Jo_Malone_Discount_Code.jpg?width=100&amp;height=100 1x, https://www.mycoupons.hk.co.uk/vouchercodes/static/shop/33753/logo/Jo_Malone_Discount_Code.jpg?width=200&amp;height=200&amp;quality=60 2x" alt="Jo Malone" class="img-responsive" height="100" width="100" src="https://www.mycoupons.hk.co.uk/vouchercodes/static/shop/33753/logo/Jo_Malone_Discount_Code.jpg?width=100&amp;height=100">
 
               </div>
 
@@ -660,7 +660,7 @@
 
               <div class="result-media">
 
-                <img srcset="https://www.glam.co.uk/vouchercodes/static/shop/24937/logo/AO_Discount_Code__1_.png?width=100&amp;height=100 1x, https://www.glam.co.uk/vouchercodes/static/shop/24937/logo/AO_Discount_Code__1_.png?width=200&amp;height=200&amp;quality=60 2x" alt="AO.com" class="img-responsive" height="100" width="100" src="https://www.glam.co.uk/vouchercodes/static/shop/24937/logo/AO_Discount_Code__1_.png?width=100&amp;height=100">
+                <img srcset="https://www.mycoupons.hk.co.uk/vouchercodes/static/shop/24937/logo/AO_Discount_Code__1_.png?width=100&amp;height=100 1x, https://www.mycoupons.hk.co.uk/vouchercodes/static/shop/24937/logo/AO_Discount_Code__1_.png?width=200&amp;height=200&amp;quality=60 2x" alt="AO.com" class="img-responsive" height="100" width="100" src="https://www.mycoupons.hk.co.uk/vouchercodes/static/shop/24937/logo/AO_Discount_Code__1_.png?width=100&amp;height=100">
 
               </div>
 
@@ -695,7 +695,7 @@
 
               <div class="result-media">
 
-                <img srcset="https://www.glam.co.uk/vouchercodes/static/shop/26189/logo/luisa_via_roma_discount_codes.png?width=100&amp;height=100 1x, https://www.glam.co.uk/vouchercodes/static/shop/26189/logo/luisa_via_roma_discount_codes.png?width=200&amp;height=200&amp;quality=60 2x" alt="Luisaviaroma" class="img-responsive" height="100" width="100" src="https://www.glam.co.uk/vouchercodes/static/shop/26189/logo/luisa_via_roma_discount_codes.png?width=100&amp;height=100">
+                <img srcset="https://www.mycoupons.hk.co.uk/vouchercodes/static/shop/26189/logo/luisa_via_roma_discount_codes.png?width=100&amp;height=100 1x, https://www.mycoupons.hk.co.uk/vouchercodes/static/shop/26189/logo/luisa_via_roma_discount_codes.png?width=200&amp;height=200&amp;quality=60 2x" alt="Luisaviaroma" class="img-responsive" height="100" width="100" src="https://www.mycoupons.hk.co.uk/vouchercodes/static/shop/26189/logo/luisa_via_roma_discount_codes.png?width=100&amp;height=100">
 
               </div>
 
@@ -730,7 +730,7 @@
 
               <div class="result-media">
 
-                <img srcset="https://www.glam.co.uk/vouchercodes/static/shop/24973/logo/Sky_Deals.png?width=100&amp;height=100 1x, https://www.glam.co.uk/vouchercodes/static/shop/24973/logo/Sky_Deals.png?width=200&amp;height=200&amp;quality=60 2x" alt="Sky" class="img-responsive" height="100" width="100" src="https://www.glam.co.uk/vouchercodes/static/shop/24973/logo/Sky_Deals.png?width=100&amp;height=100">
+                <img srcset="https://www.mycoupons.hk.co.uk/vouchercodes/static/shop/24973/logo/Sky_Deals.png?width=100&amp;height=100 1x, https://www.mycoupons.hk.co.uk/vouchercodes/static/shop/24973/logo/Sky_Deals.png?width=200&amp;height=200&amp;quality=60 2x" alt="Sky" class="img-responsive" height="100" width="100" src="https://www.mycoupons.hk.co.uk/vouchercodes/static/shop/24973/logo/Sky_Deals.png?width=100&amp;height=100">
 
               </div>
 
@@ -765,7 +765,7 @@
 
               <div class="result-media">
 
-                <img srcset="https://www.glam.co.uk/vouchercodes/static/shop/24954/logo/tui_discount_code.png?width=100&amp;height=100 1x, https://www.glam.co.uk/vouchercodes/static/shop/24954/logo/tui_discount_code.png?width=200&amp;height=200&amp;quality=60 2x" alt="TUI" class="img-responsive" height="100" width="100" src="https://www.glam.co.uk/vouchercodes/static/shop/24954/logo/tui_discount_code.png?width=100&amp;height=100">
+                <img srcset="https://www.mycoupons.hk.co.uk/vouchercodes/static/shop/24954/logo/tui_discount_code.png?width=100&amp;height=100 1x, https://www.mycoupons.hk.co.uk/vouchercodes/static/shop/24954/logo/tui_discount_code.png?width=200&amp;height=200&amp;quality=60 2x" alt="TUI" class="img-responsive" height="100" width="100" src="https://www.mycoupons.hk.co.uk/vouchercodes/static/shop/24954/logo/tui_discount_code.png?width=100&amp;height=100">
 
               </div>
 
@@ -800,7 +800,7 @@
 
               <div class="result-media">
 
-                <img srcset="https://www.glam.co.uk/vouchercodes/static/shop/25665/logo/schuh_Discount_Codes.png?width=100&amp;height=100 1x, https://www.glam.co.uk/vouchercodes/static/shop/25665/logo/schuh_Discount_Codes.png?width=200&amp;height=200&amp;quality=60 2x" alt="Schuh" class="img-responsive" height="100" width="100" src="https://www.glam.co.uk/vouchercodes/static/shop/25665/logo/schuh_Discount_Codes.png?width=100&amp;height=100">
+                <img srcset="https://www.mycoupons.hk.co.uk/vouchercodes/static/shop/25665/logo/schuh_Discount_Codes.png?width=100&amp;height=100 1x, https://www.mycoupons.hk.co.uk/vouchercodes/static/shop/25665/logo/schuh_Discount_Codes.png?width=200&amp;height=200&amp;quality=60 2x" alt="Schuh" class="img-responsive" height="100" width="100" src="https://www.mycoupons.hk.co.uk/vouchercodes/static/shop/25665/logo/schuh_Discount_Codes.png?width=100&amp;height=100">
 
               </div>
 
@@ -835,7 +835,7 @@
 
               <div class="result-media">
 
-                <img srcset="https://www.glam.co.uk/vouchercodes/static/shop/24990/logo/Vodafone_Deals.png?width=100&amp;height=100 1x, https://www.glam.co.uk/vouchercodes/static/shop/24990/logo/Vodafone_Deals.png?width=200&amp;height=200&amp;quality=60 2x" alt="Vodafone" class="img-responsive" height="100" width="100" src="https://www.glam.co.uk/vouchercodes/static/shop/24990/logo/Vodafone_Deals.png?width=100&amp;height=100">
+                <img srcset="https://www.mycoupons.hk.co.uk/vouchercodes/static/shop/24990/logo/Vodafone_Deals.png?width=100&amp;height=100 1x, https://www.mycoupons.hk.co.uk/vouchercodes/static/shop/24990/logo/Vodafone_Deals.png?width=200&amp;height=200&amp;quality=60 2x" alt="Vodafone" class="img-responsive" height="100" width="100" src="https://www.mycoupons.hk.co.uk/vouchercodes/static/shop/24990/logo/Vodafone_Deals.png?width=100&amp;height=100">
 
               </div>
 

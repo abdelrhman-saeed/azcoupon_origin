@@ -172,7 +172,7 @@
                         current_slider.parents("form").find("select[name='related_store']").val(related_store)
                         
                         if(filepath)
-                            current_slider.parents("form").find(".slide-image").attr('src', '/../glam_core/storage/app/public/' + filepath)
+                            current_slider.parents("form").find(".slide-image").attr('src', '/../mycoupons.hk_core/storage/app/public/' + filepath)
                             
                         // message success message
                         let message = response.message;

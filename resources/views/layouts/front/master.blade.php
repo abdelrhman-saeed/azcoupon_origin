@@ -69,7 +69,7 @@
 
 <div class='tele'>
 
-    <div class='t-header' data-its-me="75" role="complementary" aria-label="glam new Header">
+    <div class='t-header' data-its-me="75" role="complementary" aria-label="mycoupons.hk new Header">
         <div class="t-topbar">
             <div class="container">
                 <div class="row">
@@ -242,7 +242,7 @@
     </div>
 
     @yield('content')
-    <div class='t-disclaimer' role="complementary" aria-label="glam new Disclaimer">
+    <div class='t-disclaimer' role="complementary" aria-label="mycoupons.hk new Disclaimer">
 
         <footer class="footer" id="footer" role="contentinfo" data-event-category="footer" aria-label="Footer" data-area="FO">
 
@@ -280,7 +280,7 @@
 
     </div>
 
-    <div class="t-footer" role="complementary" aria-label="glam new Footer">
+    <div class="t-footer" role="complementary" aria-label="mycoupons.hk new Footer">
         <div class="container">
             <div>
           <span class="t-footer__to-top">
@@ -292,7 +292,7 @@
         </div>
     </div>
 
-    <div class="t-corp-copyright" data-footer role="complementary" aria-label="glam new Copyright">
+    <div class="t-corp-copyright" data-footer role="complementary" aria-label="mycoupons.hk new Copyright">
         <div class="container">
             <div class="row">
                 <div class="t-corp-list p-0">
@@ -307,7 +307,7 @@
                     @endforeach
 
                 </div>
-                <div class="col"><p>© GLAM <span id="copyrightYear"></span></p></div>
+                <div class="col"><p>© mycoupons.hk <span id="copyrightYear"></span></p></div>
             </div>
         </div>
     </div>

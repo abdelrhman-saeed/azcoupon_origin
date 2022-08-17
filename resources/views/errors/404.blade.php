@@ -1,6 +1,6 @@
 @extends('layouts.front.master')
 
-@section('title', 'Page Not Found | Glam')
+@section('title', 'Page Not Found | mycoupons.hk')
 
     @section('searchbar')
         @include('includes.all.smallsearch')

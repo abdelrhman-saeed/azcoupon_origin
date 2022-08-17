@@ -5,7 +5,7 @@
             <div class="row">
                 <div class="col-md-4 col-sm-12 text-center">
                     <a href="/" class="logo">
-                        <span class='left'>Glam</span>Promocodes
+                        <span class='left'>mycoupons.hk</span>Promocodes
                     </a>
 
                     <div class='claim mt-2'>
@@ -114,7 +114,7 @@
             <div class="row  m-t-30 copyright-content">
                 <div class="col-md-6 col-sm-12 m-t-10">
                     <p class='copyright-text'>
-                        Copyright © 2022 Glam. All rights reserved.
+                        Copyright © 2022 mycoupons.hk. All rights reserved.
                     </p>
                 </div>
                 

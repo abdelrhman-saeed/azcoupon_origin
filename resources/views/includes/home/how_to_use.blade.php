@@ -3,7 +3,7 @@
 
     <div id="how-to">
         <div class="col-md-12 col-sm-12 how-to-col">
-            <p class='lead text-center'><strong>Start saving on the best online stores using Glam promo codes.</strong></p>
+            <p class='lead text-center'><strong>Start saving on the best online stores using mycoupons.hk promo codes.</strong></p>
             <p class='lead text-center'>
                 With the help of the most reliable webstores in and a ten-year collaboration, the mycoupons.hk staff receives and checks each order received
                  Every day, hundreds of discount codes and offers are published, but only the really useful and convenient promo codes are included.
@@ -24,7 +24,7 @@
         
         <div class="row">
             <p class='lead text-center'>
-                Using Glam Promo Codes is very simple: just follow the steps below.
+                Using mycoupons.hk Promo Codes is very simple: just follow the steps below.
             </p>
         </div>
         

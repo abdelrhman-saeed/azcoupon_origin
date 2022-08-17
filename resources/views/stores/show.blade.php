@@ -124,7 +124,7 @@
 
                 "Provider": {
                     "@type": "Organization",
-                    "name": "Glam Promo Codes",
+                    "name": "mycoupons.hk Promo Codes",
                     "logo": {
                     "@type": "ImageObject",
                     "contentUrl": "LOGO"

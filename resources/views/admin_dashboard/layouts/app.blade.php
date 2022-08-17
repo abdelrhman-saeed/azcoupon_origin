@@ -26,7 +26,7 @@
     <link rel="stylesheet" href="{{ asset('admin_assets/css/dark-theme.css') }}" />
     <link rel="stylesheet" href="{{ asset('admin_assets/css/semi-dark.css') }}" />
     <link rel="stylesheet" href="{{ asset('admin_assets/css/header-colors.css') }}" />
-    <title>GLAM Admin Dashboard</title>
+    <title>mycoupons.hk Admin Dashboard</title>
 </head>
 
 <body>

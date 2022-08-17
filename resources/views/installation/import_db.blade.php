@@ -16,7 +16,7 @@
 	    
 		<link href="admin_assets/css/app.css" rel="stylesheet">
 		<link href="admin_assets/css/icons.css" rel="stylesheet">
-		<title>Glam | Import Database</title>
+		<title>mycoupons.hk | Import Database</title>
 	</head>
 
     <body class="bg-login">
