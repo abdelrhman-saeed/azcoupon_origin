@@ -25,13 +25,8 @@
             
             <div class='card-body'>
                 <h3 class='card-title border-bottom pb-3 mb-3 fw-bold'>{{ $store->$title }}</h3>
-
-                @for($description_index = 0; $description_index < 9; $description_index++)
-                        @continue($store->getAttribute("about_store_{$description_index}_description") == null)
-                    <p class='lead fw-bold'>
-                        {!! $store->getAttribute("about_store_{$description_index}_description") !!}
-                    </p>
-                @endfor
+                {!! $store->$title !!}
+                {!! $store->$description !!}
             </div>
             
         </div>
