@@ -100,6 +100,7 @@ class CategoryController extends Controller
 
     public function show(Category $category)
     {
+        dd($category);
         $related_coupons = $category->coupons()->where('offer', 0)->get();
         $related_offers = $category->offers()->get();
 

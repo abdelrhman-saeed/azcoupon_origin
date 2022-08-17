@@ -59,7 +59,7 @@
                 @if( ( isset($store) || isset($event) ) && request()->route()?->getName() == 'stores_events.show' )
                     {{ isset($store) ? $store->name : $event->banner_title }}
                 @elseif( request()->route()?->getName() == 'categories.show' )
-                    {{ $category->name }}
+                    {{ ! isset($category) ?: $category->name }}
                 @elseif(isset($query) && $query != '')
                     {{ 'Search in our site' }}
                 @else
