@@ -195,4 +195,26 @@ class Store extends Model
     {
         return $this->belongsToMany(Category::class)->withPivot('category_id', 'store_id');
     }
+
+    public function avgReviews(): int {
+        $one = 0; $two = 0; $three = 0; $four = 0; $five = 0;
+        $one_half = 0; $two_half = 0; $three_half = 0; $four_half = 0;
+
+        foreach($this->reviews as $review) {
+            if($review->review == 1){ $one++; }
+            else if($review->review == 1.5){ $one_half++; }
+            else if($review->review == 2){ $two++; }
+            else if($review->review == 2.5){ $two_half++; }
+            else if($review->review == 3){ $three++; }
+            else if($review->review == 3.5){ $three_half++; }
+            else if($review->review == 4){ $four++; }
+            else if($review->review == 4.5){ $four_half++; }
+            else if($review->review == 5){ $five++; }
+        }
+
+        $store_reviews = (5*$five) + (4.5 * $four_half) + (4*$four) + (3.5 * $three_half) + (3*$three) + (2.5 * $two_half)
+            + (2*$two) + (1.5 * $one_half) + (1 * $one);
+
+        return $store_reviews = $this->reviews->count() === 0 ? 0 : round($store_reviews / $this->reviews->count() );
+    }
 }

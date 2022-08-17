@@ -22,6 +22,7 @@
 
     <!-- Global site tag (gtag.js) - Google Analytics -->
     {!! $global_site_tag !!}
+    <link rel="canonical" href="{{url()->current()}}">
 {{--    @yield('canonical')--}}
 
     <title>@yield('title', $home_meta_title)</title>
@@ -80,8 +81,8 @@
                                     class='logo-image'
                                     width="100"
                                     height="20"
-                                    title="home page di glam.it"
-                                    alt="Glam"
+                                    title="home page di mycoupons"
+                                    alt="mycoupons"
                                     src="{{ asset('assets/images/icons/logo-svg.svg') }}">
                         </a>
                     </div>

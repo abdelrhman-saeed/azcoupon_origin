@@ -55,25 +55,7 @@ class FrontEventOrStoreController extends Controller
             return abort(404);
         }
 
-        $one = 0; $two = 0; $three = 0; $four = 0; $five = 0;
-        $one_half = 0; $two_half = 0; $three_half = 0; $four_half = 0;
 
-        foreach($store->reviews as $review) {
-            if($review->review == 1){ $one++; }
-            else if($review->review == 1.5){ $one_half++; }
-            else if($review->review == 2){ $two++; }
-            else if($review->review == 2.5){ $two_half++; }
-            else if($review->review == 3){ $three++; }
-            else if($review->review == 3.5){ $three_half++; }
-            else if($review->review == 4){ $four++; }
-            else if($review->review == 4.5){ $four_half++; }
-            else if($review->review == 5){ $five++; }
-        }
-
-        $store_reviews = (5*$five) + (4.5 * $four_half) + (4*$four) + (3.5 * $three_half) + (3*$three) + (2.5 * $two_half)
-            + (2*$two) + (1.5 * $one_half) + (1 * $one);
-
-        $store_reviews = $store->reviews->count() === 0 ? 0 : round($store_reviews / $store->reviews->count() );
         $setting = Setting::find(1);
 
         $store_coupons_offers = Coupon::whereStoreId($store->id)->NotExpired()->get();
@@ -98,7 +80,7 @@ class FrontEventOrStoreController extends Controller
             'store_coupons_at_sepcific_month' => $store_coupons_at_specific_month,
             'store_latest_coupons_offers' => $store_non_featured_coupons->filter(fn($coupon) => $coupon->title ),
             'store_expired_coupons_offers' => $store_expired_coupons_offers,
-            'store_reviews' => $store_reviews,
+            'store_reviews' => $store->avgReviews(),
             'all_coutpons_offers' => $store_coupons_offers->count(),
             'last_updated_at' => $store->updated_at->toDateString(),
             'coupon' => Coupon::whereId(request()->input('couponId'))->first(),

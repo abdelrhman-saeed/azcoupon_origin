@@ -13,7 +13,7 @@
             <header>
                 <div class="post-format-image post-format-wrapper ">
                     <div class="featured-image mask-effect">
-                        <a target='_blank' href="https://www.glam.it/news/goditi-lestate-con-gli-sconti-huawei-store/" class="thumb epcl-loader">
+                        <a target='_blank' href="https://www.mycoupons.hk/news/goditi-lestate-con-gli-sconti-huawei-store/" class="thumb epcl-loader">
                             <span 
                             class="fullimage cover" 
                             role="img" 
@@ -26,7 +26,7 @@
 
             <div class="meta">
                 <h1 class="post-title title aos-init aos-animate">
-                    <a href="https://www.glam.it/news/goditi-lestate-con-gli-sconti-huawei-store/" class="mask">
+                    <a href="https://www.mycoupons.hk/news/goditi-lestate-con-gli-sconti-huawei-store/" class="mask">
                     <font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Goditi l’estate con gli sconti HUAWEI Store</font></font></a>
                 </h1>
 
@@ -50,7 +50,7 @@
             <header>
                 <div class="post-format-image post-format-wrapper ">
                     <div class="featured-image mask-effect">
-                        <a target='_blank' href="https://www.glam.it/news/goditi-lestate-con-gli-sconti-huawei-store/" class="thumb epcl-loader">
+                        <a target='_blank' href="https://www.mycoupons.hk/news/goditi-lestate-con-gli-sconti-huawei-store/" class="thumb epcl-loader">
                             <span class="fullimage cover" 
                             role="img" 
                             aria-label="Enjoy the summer with HUAWEI Store discounts" 
@@ -63,7 +63,7 @@
             <div class="meta">
                 <h1 class="post-title title aos-init aos-animate">
                     <a 
-                        href="https://www.glam.it/news/goditi-lestate-con-gli-sconti-huawei-store/" 
+                        href="https://www.mycoupons.hk/news/goditi-lestate-con-gli-sconti-huawei-store/"
                         class="mask">
                         <font style="vertical-align: inherit;">
                         <font style="vertical-align: inherit;">Ultimi biglietti scontati per i traghetti GNV Sicilia e Sardegna.</font></font>
@@ -86,7 +86,7 @@
             <header>
                 <div class="post-format-image post-format-wrapper ">
                     <div class="featured-image mask-effect">
-                        <a target='_blank' href="https://www.glam.it/news/goditi-lestate-con-gli-sconti-huawei-store/" class="thumb epcl-loader">
+                        <a target='_blank' href="https://www.mycoupons.hk/news/goditi-lestate-con-gli-sconti-huawei-store/" class="thumb epcl-loader">
                             <span 
                             class="fullimage cover" 
                             role="img" 
@@ -99,7 +99,7 @@
 
             <div class="meta">
                 <h1 class="post-title title aos-init aos-animate" data-aos="fade" data-aos-offset="100">
-                    <a href="https://www.glam.it/news/goditi-lestate-con-gli-sconti-huawei-store/" class="mask">
+                    <a href="https://www.mycoupons.hk/news/goditi-lestate-con-gli-sconti-huawei-store/" class="mask">
                         <font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Il nuovo omaggio Casa Henkel: ToasTime di Ariete</font></font>
                     </a>
                 </h1>  

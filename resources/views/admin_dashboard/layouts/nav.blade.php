@@ -4,8 +4,7 @@
         <div>
             <img 
             src="{{ asset('assets/images/icons/logo-svg.svg') }}"
-            class="logo-icon" 
-            alt="Glam.it">
+            class="logo-icon">
         </div>
         <div>
             <h4 class="logo-text">GLAM</h4>

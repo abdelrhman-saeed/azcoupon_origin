@@ -47,9 +47,9 @@
     </div>
 
     <div class="col-6 col-sm-7 col-md-6  text-uppercase text-center fw-bolder p-0">
-        <h1 class="fw-bold sticky-bar-title">
+        <h3 class="fw-bold sticky-bar-title">
             {{$super_featured_coupon->title ?: $super_featured_coupon->description}}
-        </h1>
+        </h3>
     </div>
 
     <div class="col-2 col-sm-2 col-lg-2 p-0">

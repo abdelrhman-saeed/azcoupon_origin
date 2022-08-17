@@ -23,10 +23,10 @@
                             <span class="modal-clickout__updated"></span>
                         </div>
 
-                        <h1 class="coupon__titleddd mx-2 h4 fw-bold">
+                        <h6 class="coupon__title mx-2 h6 fw-bold">
 
                             {{ ! isset($coupon) ?: $coupon->title  }}
-                        </h1>
+                        </h6>
                     </div>
 
                 </div>
@@ -63,7 +63,7 @@
 
                 <div class="modal-clickout__link-wrp modal-clickout__code-wrp pb-5" style="text-align: left !important;">
 
-                    <h1 class="h5">Never miss again a coupon: let us notify for every new Code or sale.</h1>
+                    <h3 class="">Never miss again a coupon: let us notify for every new Code or sale.</h3>
                     <div>
                         <i class="h1 text-success bi bi-whatsapp d-inline-block mr-2"></i>
                         <p class="font-bold d-inline-block">Coupons on Whatsapp</p>
@@ -131,8 +131,51 @@
                     }
                 },
                 "@type": "BreadcrumbList",
-                "@type": "FAQPage"
+                  "itemListElement": [
+                      {
+                        "@type": "ListItem",
+                        "position": 1,
+                        "name": "Home",
+                        "item": "{{ route('home.index') }}"
+                      },
+                      {
+                        "@type": "ListItem",
+                        "position": 2,
+                        "name": "store",
+                        "item": "{{ route('stores.index') }}"
+                      }
+                  ]
+                "@type": "FAQPage",
+                @if($store->widgets->isNotEmpty())
+                    "mainEntity": [
+                        {
+                            @foreach($store->widgets as $widget)
+                                "@type":"Question",
+                                    "name":"{{$widget->title}}",
+                                    "acceptedAnswer":
+                                    {
+                                        "@type":"Answer",
+                                        "text":"<p>{{$widget->description}}</p>"
+                                    }
+                            @endforeach
+                        }
+                    ],
+                @endif
+        "aggregateRating": {
+
+            "@type": "AggregateRating",
+            "itemReviewed": {
+              "@type": "Store",
+              "image": "{{$store->image}}",
+              "name": "{{$store->name}}"
+            },
+            "ratingCount": "{{$store->reviews->count()}}",
+            "ratingValue": "{{$store->avgReviews()}}"
+            "worstRating": "{{$store->reviews->min->review}}",
+            "name": "{{$store->name}}",
+            "bestRating": "{{$store->reviews->max->review}}"
         }
+  }
 </script>
 @endsection
 
@@ -444,12 +487,12 @@
                         "
                         href="{{ route('open_coupon', $coupon) }}"
                         target="_blank">
-                            <h1
+                            <h3
                             data-coupon-id='{{$coupon->id}}'
                             data-shop-name='{{$coupon->store->name}}'
-                            class="coupon__title mx-2 h5 fw-bold">
+                            class="coupon__title mx-2 fw-bold">
                                 {{ $coupon->title }}
-                            </h1>
+                            </h3>
                         </a>
 
                         <div class="coupon__text"
