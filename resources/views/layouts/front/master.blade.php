@@ -3,15 +3,9 @@
 <html class="no-js" lang="en-HK">
 
 <head>
-<style>
-    .icon{font-size:20px;margin-top:20%}.coupon__aside img{display:block}.coupon__label--exclusive::before{font-family:Simple}.w-featured__content .coupon__label{font-size:14px}@media (min-width:992px){body .headline__title span{font-size:36px}}.coupon__aside img{display:block}.coupon__label--exclusive::before{font-family:Simple}.w-featured__content .coupon__label{font-size:14px}@media (min-width:992px){body .headline__title span{font-size:36px}}
-</style>
 
-  <style>
-/*Default Banner*/
-</style>
-
-  <meta charset="utf-8">
+    <meta charset="utf-8">
+    <meta name="robots" content="index,follow">
 
     <script src="{{ asset('assets/js/jquery.min.js') }}"></script>
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -23,16 +17,21 @@
     <!-- Global site tag (gtag.js) - Google Analytics -->
     {!! $global_site_tag !!}
     <link rel="canonical" href="{{url()->current()}}">
-{{--    @yield('canonical')--}}
+    @yield('canonical')
 
     <title>@yield('title', $home_meta_title)</title>
     <link rel="shortcut icon" sizes="32x32" href="{{ asset('assets/images/icons/logo-svg.svg') }}?width=32&amp;height=32&amp;format=png" type="image/x-icon">
-    
-
-<meta name="robots" content="index,follow">
 
     <meta name="theme-color" content="#ffffff">
 
+
+    <style>
+        .icon{font-size:20px;margin-top:20%}.coupon__aside img{display:block}.coupon__label--exclusive::before{font-family:Simple}.w-featured__content .coupon__label{font-size:14px}@media (min-width:992px){body .headline__title span{font-size:36px}}.coupon__aside img{display:block}.coupon__label--exclusive::before{font-family:Simple}.w-featured__content .coupon__label{font-size:14px}@media (min-width:992px){body .headline__title span{font-size:36px}}
+    </style>
+    
+      <style>
+    /*Default Banner*/
+    </style>
 
 <!-- Will be Deleted soon -->
 <style type="text/css">

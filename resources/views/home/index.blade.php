@@ -67,7 +67,7 @@
     <div class="row">
         
         <div class="col-lg-12 text-center">
-            <h2>The Best Verified mycoupons.hk Promo Codes </h2>
+            <h1>The Best Verified mycoupons.hk Promo Codes </h1>
            
         </div>
         

@@ -169,7 +169,7 @@
             "@type": "AggregateRating",
             "itemReviewed": {
               "@type": "Store",
-              "image": "{{$store->image}}",
+              "image": "{{$store->getStoreImage()}}",
               "name": "{{$store->name}}"
             },
             "ratingCount": "{{$store->reviews->count()}}",
@@ -245,9 +245,9 @@ background-color:#0f364b}.m-navigation{height:55px;background-color:#072a3a}@med
                 </div>
             </div>
             <div class="title-and-filters-container row col-9">
-                <h4 class=" col-12 my-1 fw-bold">
+                <h1 class=" col-12 my-1 fw-bold">
                     {!! str_replace('(v_date)', ucfirst( \Carbon\Carbon::parse(now()->toDateString())->translatedFormat('F Y') ), $store->title ) !!}
-                </h4>
+                </h1>
             </div>
         </div>
     </div>
